@@ -1,0 +1,11 @@
+#gcontainer{
+    border: 2px solid rgb(68, 64, 64);
+    width:750px;
+    height:730px;
+}
+
+#gmapbox {
+    width: 100%;
+    height: 100%;
+}
+
