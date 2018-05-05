@@ -8,12 +8,13 @@ import { OrdersPage } from '../pages/orders/orders';
 import { ProfilePage } from '../pages/profile/profile';
 import { ProductPage } from '../pages/product/product';
 import { LandPage } from '../pages/land/land';
+import { NewProductPage } from '../pages/new-product/new-product';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = ProductPage;
+  rootPage:any = NewProductPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
