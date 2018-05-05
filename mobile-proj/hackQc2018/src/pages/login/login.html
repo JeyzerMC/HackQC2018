@@ -7,7 +7,7 @@
   </ion-item>
 
   <ion-item>
-    <ion-label fixed>Password</ion-label>
+    <ion-label fixed>password</ion-label>
     <ion-input #password type="password"></ion-input>
   </ion-item>
   <button ion-button [navPush]="homePage" [navParams]="{email: email.value}" [disabled]="!email.value || !password.value">

@@ -38,7 +38,7 @@ export class SignupPage {
         password,
         firstName,
         lastName,
-        phone
+        phonenumber: phone
       }, {}).toPromise().then(() => this.showAlert('user added',`the user ${email} has been added, you can now login`))
       .catch((err) => {this.showAlert('error', err); console.error(err)})
     }
