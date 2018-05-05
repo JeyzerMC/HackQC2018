@@ -15,6 +15,7 @@
 
 <ion-content padding>
   <ion-list>
+    <ion-label>Product Information</ion-label>
     <ion-item>
       <ion-label>Product</ion-label>
       <ion-select [(ngModel)]="product">
@@ -42,6 +43,7 @@
         <ion-option>Chemical Boosters</ion-option>
       </ion-select>
     </ion-item>
+    <ion-label>Growing calendar</ion-label>
     <ion-item>
       <ion-label>Start Date</ion-label>
       <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="date"></ion-datetime>
@@ -53,4 +55,5 @@
       </ion-select>
     </ion-item>
   </ion-list>
+  <button ion-button round>Register</button>
 </ion-content>
