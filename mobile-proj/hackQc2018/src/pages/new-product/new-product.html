@@ -43,11 +43,11 @@
         <ion-option>Chemical Boosters</ion-option>
       </ion-select>
     </ion-item>
+    <ion-label>Growing calendar</ion-label>
     <ion-item>
       <ion-label>Start Date</ion-label>
       <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="date"></ion-datetime>
     </ion-item>
-    <ion-label>Growing calendar</ion-label>
     <ion-item>
       <ion-label>Growing Forecast (weeks)</ion-label>
       <ion-select [(ngModel)]="time">
@@ -55,4 +55,5 @@
       </ion-select>
     </ion-item>
   </ion-list>
+  <button ion-button round>Register</button>
 </ion-content>

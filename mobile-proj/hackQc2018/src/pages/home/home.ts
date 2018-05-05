@@ -1,5 +1,7 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { ProfilePage } from '../profile/profile';
+import { OrdersPage } from '../orders/orders';
  
 declare var google;
  
@@ -12,7 +14,10 @@ export class HomePage {
   username: string;
   @ViewChild('map') mapElement: ElementRef;
   map: any;
- 
+
+  profile = ProfilePage;
+  orders = OrdersPage;
+
   constructor(
     public navCtrl: NavController) {}
  

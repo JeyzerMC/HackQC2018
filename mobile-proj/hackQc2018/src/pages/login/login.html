@@ -2,17 +2,17 @@
   <h2>appName</h2>
   <img src="../../assets/imgs/logo.png" alt="">
   <ion-item>
-    <ion-label fixed>Username</ion-label>
-    <ion-input #username type="text" value=""></ion-input>
+    <ion-label fixed>email</ion-label>
+    <ion-input #email type="email" value=""></ion-input>
   </ion-item>
 
   <ion-item>
-    <ion-label fixed>Password</ion-label>
+    <ion-label fixed>password</ion-label>
     <ion-input #password type="password"></ion-input>
   </ion-item>
-  <button ion-button [navPush]="homePage" [navParams]="{username: username.value}"
-  >Login</button>
-
+  <button ion-button [navPush]="homePage" [navParams]="{email: email.value}" [disabled]="!email.value || !password.value">
+    Login
+  </button>
+  <a (click)="openSignupModal()">signup</a>
 </ion-content>
 
-<!-- [disabled]="!username.value || !password.value" -->
