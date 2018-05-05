@@ -8,16 +8,13 @@ declare var google;
   templateUrl: 'home.html'
 })
 export class HomePage {
- 
+  
+  username: string;
   @ViewChild('map') mapElement: ElementRef;
   map: any;
-  username: string;
  
   constructor(
-    public navCtrl: NavController,
-    public navParams: NavParams) {
-    // this.username = this.navParams.get('username');
-  }
+    public navCtrl: NavController) {}
  
   ionViewDidLoad(){
     this.loadMap();
@@ -33,7 +30,6 @@ export class HomePage {
     }
  
     this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
-    console.log(this.map);
- 
+
   }
 }
