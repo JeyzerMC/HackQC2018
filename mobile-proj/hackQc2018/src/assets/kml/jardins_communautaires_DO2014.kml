@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="jardins_communautaires_DO2014" id="jardins_communautaires_DO2014">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Text_" type="string"></SimpleField>
+	<SimpleField name="Index" type="string"></SimpleField>
+	<SimpleField name="NomArrond" type="string"></SimpleField>
+	<SimpleField name="RueN" type="string"></SimpleField>
+	<SimpleField name="RueS" type="string"></SimpleField>
+	<SimpleField name="RueE" type="string"></SimpleField>
+	<SimpleField name="RueO" type="string"></SimpleField>
+	<SimpleField name="N_Jardinet" type="int"></SimpleField>
+	<SimpleField name="Banlieu" type="string"></SimpleField>
+	<SimpleField name="SHAPE_Leng" type="float"></SimpleField>
+	<SimpleField name="SHAPE_Area" type="float"></SimpleField>
+	<SimpleField name="Nbacs" type="int"></SimpleField>
+</Schema>
+<Folder><name>jardins_communautaires_DO2014</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="Text_">PÈRE-MARQUETTE</SimpleData>
+		<SimpleData name="Index">0798-126</SimpleData>
+		<SimpleData name="NomArrond">Rosemont La Petite-Patrie</SimpleData>
+		<SimpleData name="RueN">rue De Drucourt</SimpleData>
+		<SimpleData name="RueS">rue de Bellechasse</SimpleData>
+		<SimpleData name="RueE">rue Marquette</SimpleData>
+		<SimpleData name="RueO">rue de Lanaudière</SimpleData>
+		<SimpleData name="N_Jardinet">125</SimpleData>
+		<SimpleData name="SHAPE_Leng">238.37906264800</SimpleData>
+		<SimpleData name="SHAPE_Area">3550.02559997000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5957937807018,45.5402632497545 -73.5951673843218,45.539973845777 -73.5956024946029,45.5395197845256 -73.596225302187,45.5398088292284 -73.5957937807018,45.5402632497545</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="Text_">GEORGES-VANIER</SimpleData>
+		<SimpleData name="Index">0798-002</SimpleData>
+		<SimpleData name="NomArrond">Ville-Marie</SimpleData>
+		<SimpleData name="RueN">rue Saint-Antoine</SimpleData>
+		<SimpleData name="RueS">rue Saint-Jacques</SimpleData>
+		<SimpleData name="RueE">rue Jean-D'Estrées</SimpleData>
+		<SimpleData name="RueO">rue de la Montagne</SimpleData>
+		<SimpleData name="N_Jardinet">63</SimpleData>
+		<SimpleData name="SHAPE_Leng">236.34335568300</SimpleData>
+		<SimpleData name="SHAPE_Area">2922.42029709000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.566669439282,45.4950164136247 -73.5669538626837,45.4947215285679 -73.5672205226629,45.4948451005562 -73.5672119682773,45.4948586032548 -73.5672036658901,45.4948721957889 -73.5671958773931,45.4948858780046 -73.5671882168393,45.4948995601444 -73.5671810682839,45.4949134219514 -73.5671741757261,45.4949273735918 -73.5671676671133,45.4949414149904 -73.5671615424439,45.4949555447413 -73.5671556736691,45.4949696771534 -73.5671501889451,45.4949839879023 -73.5671450880585,45.4949982970192 -73.5671403710144,45.4950126087223 -73.5671360380219,45.4950270987623 -73.5671319609219,45.4950415886517 -73.5671282696611,45.4950560783142 -73.5671249583491,45.4950706577377 -73.5671220328769,45.4950852369344 -73.567119363405,45.4950999059649 -73.5671175862505,45.4951117849538 -73.5670396004757,45.4951928898466 -73.5666866778054,45.4955597998282 -73.5663782717332,45.4954100654077 -73.5663543947492,45.4953431308678 -73.566669439282,45.4950164136247</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="Text_">VERSAILLES</SimpleData>
+		<SimpleData name="Index">0798-032</SimpleData>
+		<SimpleData name="NomArrond">Ville-Marie</SimpleData>
+		<SimpleData name="RueN">rue Saint-Antoine</SimpleData>
+		<SimpleData name="RueS">rue Bonaventure</SimpleData>
+		<SimpleData name="RueE">rue Lucien-L'Allier</SimpleData>
+		<SimpleData name="RueO">rue Versailles</SimpleData>
+		<SimpleData name="N_Jardinet">57</SimpleData>
+		<SimpleData name="SHAPE_Leng">208.92752968600</SimpleData>
+		<SimpleData name="SHAPE_Area">2172.43389993000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5700559685927,45.4939252841515 -73.5697732959204,45.4937873310322 -73.5698521488935,45.493715475249 -73.5701085802189,45.4935339994805 -73.5705652314605,45.4937541802072 -73.5705708849529,45.4937733434025 -73.5700903012822,45.4941666013747 -73.5700606218685,45.4941697690373 -73.5698934274024,45.4940907751331 -73.5700559685927,45.4939252841515</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="Text_">CENTRE-SUD</SimpleData>
+		<SimpleData name="Index">0798-047</SimpleData>
+		<SimpleData name="NomArrond">Ville-Marie</SimpleData>
+		<SimpleData name="RueN">rue La Fontaine</SimpleData>
+		<SimpleData name="RueS">rue Logan</SimpleData>
+		<SimpleData name="RueE">rue De Champlain</SimpleData>
+		<SimpleData name="RueO">rue Alexandre-DeSève</SimpleData>
+		<SimpleData name="N_Jardinet">44</SimpleData>
+		<SimpleData name="SHAPE_Leng">149.10514140700</SimpleData>
+		<SimpleData name="SHAPE_Area">1265.71041326000</SimpleData>
+		<SimpleData name="Nbacs">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5572450017584,45.523532901066 -73.5575367555496,45.5232213733557 -73.5577074902193,45.5233012197238 -73.5577338736959,45.5232729767298 -73.5578752996458,45.5233386764261 -73.5575581784852,45.5236794260159 -73.5572450017584,45.523532901066</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="Text_">DES 50 CITOYENS</SimpleData>
+		<SimpleData name="Index">0798-004</SimpleData>
+		<SimpleData name="NomArrond">Ville-Marie</SimpleData>
+		<SimpleData name="RueN">rue Ontario</SimpleData>
+		<SimpleData name="RueS">rue La Fontaine</SimpleData>
+		<SimpleData name="RueE">rue Alexandre-De-Sève</SimpleData>
+		<SimpleData name="RueO">rue Plessis</SimpleData>
+		<SimpleData name="N_Jardinet">27</SimpleData>
+		<SimpleData name="SHAPE_Leng">125.64658666400</SimpleData>
+		<SimpleData name="SHAPE_Area">830.37595001000</SimpleData>
+		<SimpleData name="Nbacs">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5591077167379,45.52338636678 -73.5587250337845,45.5232093856892 -73.55891607079,45.5230064634165 -73.5591805414304,45.523128884898 -73.5590929515857,45.5232222436344 -73.5592110349373,45.5232765328146 -73.5591077167379,45.52338636678</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="Text_">SAINTE-CATHERINE</SimpleData>
+		<SimpleData name="Index">0798-024</SimpleData>
+		<SimpleData name="NomArrond">Ville-Marie</SimpleData>
+		<SimpleData name="RueN">rue Robin</SimpleData>
+		<SimpleData name="RueS">boulevard de Maisonneuve</SimpleData>
+		<SimpleData name="RueE">rue Amherst</SimpleData>
+		<SimpleData name="RueO">rue Saint-Thimothée</SimpleData>
+		<SimpleData name="N_Jardinet">36</SimpleData>
+		<SimpleData name="SHAPE_Leng">134.79214061300</SimpleData>
+		<SimpleData name="SHAPE_Area">991.97799995900</SimpleData>
+		<SimpleData name="Nbacs">16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5602650620529,45.5185827750429 -73.559776244173,45.5183570819077 -73.5599287752051,45.5181938608834 -73.5604175919913,45.5184192834207 -73.5602650620529,45.5185827750429</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="Text_">PANET</SimpleData>
+		<SimpleData name="Index">0587-000</SimpleData>
+		<SimpleData name="NomArrond">Ville-Marie</SimpleData>
+		<SimpleData name="RueN">rue Ontario</SimpleData>
+		<SimpleData name="RueS">rue Duhamel</SimpleData>
+		<SimpleData name="RueE">rue Plessis</SimpleData>
+		<SimpleData name="RueO">rue Panet</SimpleData>
+		<SimpleData name="N_Jardinet">10</SimpleData>
+		<SimpleData name="SHAPE_Leng">86.78454558180</SimpleData>
+		<SimpleData name="SHAPE_Area">382.31364296200</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5605588326183,45.5226590759954 -73.560339300988,45.5228925206551 -73.5602078971784,45.5228315808438 -73.5604275171705,45.5225981813793 -73.5605588326183,45.5226590759954</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="Text_">BALDWIN</SimpleData>
+		<SimpleData name="Index">0798-046</SimpleData>
+		<SimpleData name="NomArrond">Le Plateau-Mont-Royal</SimpleData>
+		<SimpleData name="RueN">rue Rachel</SimpleData>
+		<SimpleData name="RueS">rue Sherbrooke</SimpleData>
+		<SimpleData name="RueE">rue Chapleau</SimpleData>
+		<SimpleData name="RueO">rue Fullum</SimpleData>
+		<SimpleData name="N_Jardinet">45</SimpleData>
+		<SimpleData name="SHAPE_Leng">169.98260457800</SimpleData>
+		<SimpleData name="SHAPE_Area">1610.25220002000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5638204537682,45.5345831363931 -73.5634109497282,45.5350018791014 -73.5631139978718,45.5348590592963 -73.5635150478003,45.5344360031202 -73.5638204537682,45.5345831363931</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="Text_">MÉDÉRIC-MARTIN</SimpleData>
+		<SimpleData name="Index">0798-252</SimpleData>
+		<SimpleData name="NomArrond">Ville-Marie</SimpleData>
+		<SimpleData name="RueN">rue de Rouen</SimpleData>
+		<SimpleData name="RueS">rue Ontario</SimpleData>
+		<SimpleData name="RueE">avenue Gascon</SimpleData>
+		<SimpleData name="RueO">rue du havre</SimpleData>
+		<SimpleData name="N_Jardinet">37</SimpleData>
+		<SimpleData name="SHAPE_Leng">143.24268606100</SimpleData>
+		<SimpleData name="SHAPE_Area">1269.97392152000</SimpleData>
+		<SimpleData name="Nbacs">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5538498584775,45.5347532119786 -73.5540758826482,45.5344109600694 -73.5544293485429,45.5345381670883 -73.5542558980711,45.5347873936617 -73.5542518062368,45.5347929746007 -73.5542477144017,45.5347985555396 -73.5542433664908,45.5348041365999 -73.5542388903685,45.5348095377534 -73.5542342862943,45.5348150289511 -73.5542296820463,45.5348203401812 -73.5542248217223,45.5348256515326 -73.5542198332733,45.5348308729609 -73.5542147167858,45.5348360944497 -73.5542094721734,45.5348412260152 -73.554204099436,45.5348462676576 -73.5541985985735,45.5348512193766 -73.5541929696725,45.5348561711561 -73.5541873406841,45.5348610329516 -73.554181455533,45.5348658048845 -73.5541791525837,45.5348676056527 -73.5538498584775,45.5347532119786</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="Text_">SAINT-EUSÈBE</SimpleData>
+		<SimpleData name="Index">0798-005</SimpleData>
+		<SimpleData name="NomArrond">Ville-Marie</SimpleData>
+		<SimpleData name="RueN">rue de Rouen</SimpleData>
+		<SimpleData name="RueS">rue Larivière</SimpleData>
+		<SimpleData name="RueE">rue Dufresne</SimpleData>
+		<SimpleData name="RueO">place Larivière</SimpleData>
+		<SimpleData name="N_Jardinet">34</SimpleData>
+		<SimpleData name="SHAPE_Leng">213.97334022400</SimpleData>
+		<SimpleData name="SHAPE_Area">1224.69630001000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5570904238888,45.5326670732791 -73.5570157911565,45.5324238842437 -73.5569528631881,45.5323602970606 -73.5564344857979,45.5321284860027 -73.5564644117446,45.5320950872087 -73.556478246065,45.5321020091256 -73.5565482028401,45.5320257582008 -73.5568620248773,45.5321701164735 -73.5568620248773,45.5321701164735 -73.5568621536342,45.5321708362802 -73.5568626678459,45.5321729056526 -73.5568631820576,45.532174975025 -73.5568638243009,45.5321770443337 -73.5568644664535,45.5321790236586 -73.5568652367284,45.5321810929035 -73.5568660070034,45.5321831621484 -73.5568667771877,45.5321851414095 -73.5568676754944,45.5321872105907 -73.5568685737104,45.5321891897881 -73.5568694719264,45.5321911689855 -73.5568704981741,45.5321931481191 -73.5568715244219,45.5321951272527 -73.5568726787013,45.5321971063225 -73.5568738329808,45.5321990853924 -73.5568749871697,45.5322009744784 -73.5568762693903,45.5322028635007 -73.5568775516109,45.532204752523 -73.5568789618632,45.5322066414815 -73.5568803721157,45.53220853044 -73.5568817823682,45.5322104193984 -73.5568833205617,45.5322122183093 -73.5568848587553,45.5322140172202 -73.556886396949,45.532215816131 -73.5568879351428,45.5322176150419 -73.5568896012776,45.5322193239051 -73.5568913954441,45.5322210327046 -73.5568930615791,45.5322227415678 -73.5568948557459,45.5322244503672 -73.5568967779444,45.5322261591028 -73.5568985720206,45.5322277779183 -73.5569004941286,45.5322293966701 -73.5569025442683,45.532231015358 -73.5569044662858,45.5322325441259 -73.556906516335,45.53223407283 -73.5569085663844,45.532235601534 -73.5569107444655,45.5322371301742 -73.5569127944243,45.5322385688944 -73.5569149724149,45.5322400075507 -73.5569172784373,45.5322414461432 -73.5569194564281,45.5322428847995 -73.5569217623599,45.5322442334081 -73.5569240682918,45.5322455820167 -73.5569265021648,45.5322468405776 -73.5569288080062,45.5322480992022 -73.5569312418794,45.5322493577631 -73.5569336757527,45.5322506163238 -73.556936237567,45.5322517848369 -73.5569386713497,45.5322529534138 -73.5569412330734,45.532254031943 -73.5569437947972,45.5322551104721 -73.5569463565211,45.5322561890012 -73.5569490462768,45.5322572674664 -73.5569516079101,45.5322582560116 -73.5569542975751,45.5322592444929 -73.5569569871495,45.5322601429903 -73.5569596767239,45.5322610414876 -73.5569623662984,45.5322619399849 -73.5569651838139,45.5322627484345 -73.5569680013295,45.532263556884 -73.5569706907226,45.5322642754135 -73.5569735081475,45.5322649938791 -73.5569763255724,45.5322657123446 -73.5569792710291,45.5322664307462 -73.5569820882725,45.532266969244 -73.5569849056068,45.5322675977255 -73.556987850882,45.5322681361593 -73.5569907961572,45.5322686745929 -73.5569936133099,45.5322691231067 -73.5569965584944,45.5322695715564 -73.5569995036789,45.5322700200061 -73.5570024487726,45.5322703784719 -73.5570053938662,45.5322707369376 -73.5570084669008,45.5322710053555 -73.5570114119037,45.5322712738373 -73.5570143569065,45.532271542319 -73.5570173018185,45.5322717208169 -73.5570203747623,45.5322718992507 -73.5570233195834,45.5322719877646 -73.5570262644045,45.5322720762784 -73.5570293372573,45.5322721647282 -73.5570322819875,45.532272163258 -73.5570353547494,45.5322721617239 -73.5570382993886,45.5322720702698 -73.5570412440278,45.5322719788156 -73.5570443166078,45.5322717973136 -73.557047261156,45.5322716158755 -73.5570502057042,45.5322714344373 -73.5570532781931,45.5322711629513 -73.5570562226502,45.5322708915291 -73.5570591671073,45.5322706201069 -73.5570621114734,45.5322702587008 -73.5570650557485,45.5322698073108 -73.5570680001145,45.5322694459046 -73.5570709442985,45.5322689045307 -73.5570738885734,45.5322684531405 -73.5570767047255,45.5322679118304 -73.5570796489093,45.5322673704562 -73.5570796489093,45.5322673704562 -73.5571493318023,45.5323005396534 -73.557317648139,45.5323817107305 -73.5572122670145,45.5324973927899 -73.5572454438925,45.5325136632434 -73.5570904238888,45.5326670732791</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="Text_">SAINTE-MARIE</SimpleData>
+		<SimpleData name="Index">0798-047</SimpleData>
+		<SimpleData name="NomArrond">Ville-Marie</SimpleData>
+		<SimpleData name="RueN">rue La Fontaine</SimpleData>
+		<SimpleData name="RueS">rue Logan</SimpleData>
+		<SimpleData name="RueE">rue Dufresne</SimpleData>
+		<SimpleData name="RueO">rue de Fullum</SimpleData>
+		<SimpleData name="N_Jardinet">75</SimpleData>
+		<SimpleData name="SHAPE_Leng">165.12922533200</SimpleData>
+		<SimpleData name="SHAPE_Area">1348.86109995000</SimpleData>
+		<SimpleData name="Nbacs">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5518386543681,45.5296054468741 -73.5511901945191,45.5293128417559 -73.551350585628,45.5291453997355 -73.5519977634664,45.5294372846643 -73.5518386543681,45.5296054468741</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="Text_">HOCHELAGA</SimpleData>
+		<SimpleData name="Index">0798-039</SimpleData>
+		<SimpleData name="NomArrond">MercierHochelaga-Maisonneuve</SimpleData>
+		<SimpleData name="RueN">rue Ontario</SimpleData>
+		<SimpleData name="RueS">rue la Fontaine</SimpleData>
+		<SimpleData name="RueE">rue Aylwin</SimpleData>
+		<SimpleData name="RueO">rue Cuvillier</SimpleData>
+		<SimpleData name="N_Jardinet">27</SimpleData>
+		<SimpleData name="SHAPE_Leng">155.32729909300</SimpleData>
+		<SimpleData name="SHAPE_Area">909.11605000000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5441140912661,45.543851052252 -73.5439925361013,45.5438151056654 -73.5439571620171,45.5437765162933 -73.5442703752535,45.5432660979897 -73.5444321513696,45.5433174158539 -73.5441140912661,45.543851052252</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="Text_">MAISONNEUVE</SimpleData>
+		<SimpleData name="Index">0798-008</SimpleData>
+		<SimpleData name="NomArrond">MercierHochelaga-Maisonneuve</SimpleData>
+		<SimpleData name="RueN">rue de Rouen</SimpleData>
+		<SimpleData name="RueS">rue Ontario</SimpleData>
+		<SimpleData name="RueE">avenue Bennett</SimpleData>
+		<SimpleData name="RueO">avenue Letourneux</SimpleData>
+		<SimpleData name="N_Jardinet">236</SimpleData>
+		<SimpleData name="SHAPE_Leng">380.68232610800</SimpleData>
+		<SimpleData name="SHAPE_Area">7773.45439986000</SimpleData>
+		<SimpleData name="Nbacs">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5429751833347,45.5539880463719 -73.5426621370783,45.5544747044578 -73.5410926243143,45.5539567049504 -73.5413572075401,45.5535635615381 -73.5415104956534,45.5535312018617 -73.5429751833347,45.5539880463719</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="Text_">BASILE-PATENAUDE</SimpleData>
+		<SimpleData name="Index">0798-012</SimpleData>
+		<SimpleData name="NomArrond">Rosemont La Petite-Patrie</SimpleData>
+		<SimpleData name="RueN">place Basile-Patenaud</SimpleData>
+		<SimpleData name="RueS">rue Masson</SimpleData>
+		<SimpleData name="RueE">1re avenue</SimpleData>
+		<SimpleData name="RueO">rue D'Iberville</SimpleData>
+		<SimpleData name="N_Jardinet">77</SimpleData>
+		<SimpleData name="SHAPE_Leng">232.33393300600</SimpleData>
+		<SimpleData name="SHAPE_Area">2046.99220272000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5779524015086,45.5447733261701 -73.5784880857967,45.5440360593604 -73.5786282005373,45.5443250804823 -73.5781968644511,45.5449277889495 -73.5780591159052,45.5448790445378 -73.5780981601798,45.5448269145102 -73.5779524015086,45.5447733261701</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="Text_">DE LORIMIER</SimpleData>
+		<SimpleData name="Index">0798-050</SimpleData>
+		<SimpleData name="NomArrond">Le Plateau-Mont-Royal</SimpleData>
+		<SimpleData name="RueN">rue Gilford</SimpleData>
+		<SimpleData name="RueS">avenue du Mont-Royal</SimpleData>
+		<SimpleData name="RueE">avenue de Lorimier</SimpleData>
+		<SimpleData name="RueO">rue de Bordeaux</SimpleData>
+		<SimpleData name="N_Jardinet">119</SimpleData>
+		<SimpleData name="SHAPE_Leng">245.66971168300</SimpleData>
+		<SimpleData name="SHAPE_Area">3629.45529997000</SimpleData>
+		<SimpleData name="Nbacs">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5758335384277,45.5365895404377 -73.575048024181,45.5362203158606 -73.5754105198336,45.5358462845071 -73.5761745298866,45.5362225396921 -73.5758335384277,45.5365895404377</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="Text_">RIVARD</SimpleData>
+		<SimpleData name="Index">0231-000</SimpleData>
+		<SimpleData name="NomArrond">Le Plateau-Mont-Royal</SimpleData>
+		<SimpleData name="RueN">rue Gilford</SimpleData>
+		<SimpleData name="RueS">rue De Bienville</SimpleData>
+		<SimpleData name="RueE">rue Rivard</SimpleData>
+		<SimpleData name="RueO">rue Saint-Denis</SimpleData>
+		<SimpleData name="N_Jardinet">29</SimpleData>
+		<SimpleData name="SHAPE_Leng">136.60981755200</SimpleData>
+		<SimpleData name="SHAPE_Area">1002.11825000000</SimpleData>
+		<SimpleData name="Nbacs">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5850670381238,45.5256571073901 -73.5845606460895,45.5254291041075 -73.5847080062892,45.5252674737368 -73.5852142693146,45.5254953864848 -73.5850670381238,45.5256571073901</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="Text_">ÉTIENNE-DESMARTEAU</SimpleData>
+		<SimpleData name="Index">0798-206</SimpleData>
+		<SimpleData name="NomArrond">Rosemont La Petite-Patrie</SimpleData>
+		<SimpleData name="RueN">rue de Bellechasse</SimpleData>
+		<SimpleData name="RueS">boulevard Rosemont</SimpleData>
+		<SimpleData name="RueE">18e avenue</SimpleData>
+		<SimpleData name="RueO">16e avenue</SimpleData>
+		<SimpleData name="N_Jardinet">147</SimpleData>
+		<SimpleData name="SHAPE_Leng">359.51296095000</SimpleData>
+		<SimpleData name="SHAPE_Area">5142.80159873000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5784490049217,45.5583809925194 -73.5783812335903,45.5583600222853 -73.5784436177843,45.5582764903075 -73.5782056625958,45.5582055032793 -73.5781475513265,45.5582877119795 -73.5773345236049,45.5580361260699 -73.5774678559532,45.5578426613269 -73.577489713538,45.5578093526305 -73.5775250821269,45.5578208465134 -73.5778055823928,45.5574376862877 -73.5782876936031,45.5576109349657 -73.5780973972512,45.5578279253085 -73.5786239065413,45.5580546823378 -73.5787081110678,45.558089897858 -73.5784490049217,45.5583809925194</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="Text_">DU CARREFOUR</SimpleData>
+		<SimpleData name="Index">0798-021</SimpleData>
+		<SimpleData name="NomArrond">Rosemont La Petite-Patrie</SimpleData>
+		<SimpleData name="RueN">boulevard Rosemont</SimpleData>
+		<SimpleData name="RueS">rue Dandurand</SimpleData>
+		<SimpleData name="RueE">14e avenue</SimpleData>
+		<SimpleData name="RueO">5675 rue Lafond</SimpleData>
+		<SimpleData name="N_Jardinet">16</SimpleData>
+		<SimpleData name="SHAPE_Leng">231.03722414200</SimpleData>
+		<SimpleData name="SHAPE_Area">1788.88617137000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5768231617597,45.5544455010724 -73.5769252660482,45.5542744637268 -73.5770241841687,45.5543030118242 -73.5768998380251,45.5545064582884 -73.5769650585054,45.5545259407826 -73.5769296290219,45.554585559025 -73.57685749345,45.5545627110006 -73.5768044876701,45.5546496327383 -73.5768774198757,45.5546710348999 -73.5768434009036,45.5547290254321 -73.5761318707914,45.5545169608465 -73.5762746239386,45.5542842582946 -73.5768231617597,45.5544455010724</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="Text_">DE LA PETITE-BOURGOGNE</SimpleData>
+		<SimpleData name="Index">0798-029</SimpleData>
+		<SimpleData name="NomArrond">Le Sud-Ouest</SimpleData>
+		<SimpleData name="RueN">rue Blake</SimpleData>
+		<SimpleData name="RueS">rue Quesnel</SimpleData>
+		<SimpleData name="RueE">boulevard Georges-Vanier</SimpleData>
+		<SimpleData name="RueO">rue du Dominion</SimpleData>
+		<SimpleData name="N_Jardinet">30</SimpleData>
+		<SimpleData name="SHAPE_Leng">162.21494432200</SimpleData>
+		<SimpleData name="SHAPE_Area">1107.88430001000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5757518430018,45.4876440604186 -73.575609554567,45.4875263649153 -73.576228872518,45.4871520674903 -73.5763727021698,45.4872739904735 -73.5757518430018,45.4876440604186</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="Text_">LA LÉGUMIÈRE ROSE-DE-LIMA</SimpleData>
+		<SimpleData name="Index">0798-377</SimpleData>
+		<SimpleData name="NomArrond">Le Sud-Ouest</SimpleData>
+		<SimpleData name="RueN">rue Saint-Jacques</SimpleData>
+		<SimpleData name="RueS">rue Delisle</SimpleData>
+		<SimpleData name="RueE">avenue Greene</SimpleData>
+		<SimpleData name="RueO">rue Rose-de-Lima</SimpleData>
+		<SimpleData name="N_Jardinet">88</SimpleData>
+		<SimpleData name="SHAPE_Leng">204.82232945300</SimpleData>
+		<SimpleData name="SHAPE_Area">2558.43404998000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5805951410796,45.4819717165654 -73.5801911219682,45.4816627237023 -73.5805047911626,45.481494591725 -73.5808075912699,45.4813304258953 -73.5811231989337,45.4816242720137 -73.5805951410796,45.4819717165654</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="Text_">BONS VOISINS</SimpleData>
+		<SimpleData name="Index">0798-025</SimpleData>
+		<SimpleData name="NomArrond">Le Sud-Ouest</SimpleData>
+		<SimpleData name="RueN">rue Sainte-Émilie</SimpleData>
+		<SimpleData name="RueS">rue Saint-Ambroise</SimpleData>
+		<SimpleData name="RueE">rue Bourget</SimpleData>
+		<SimpleData name="RueO">rue Turgeon</SimpleData>
+		<SimpleData name="N_Jardinet">38</SimpleData>
+		<SimpleData name="SHAPE_Leng">124.96054600400</SimpleData>
+		<SimpleData name="SHAPE_Area">950.81410001800</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5799448554956,45.4780263458139 -73.5797545475187,45.4782221955638 -73.5793723491895,45.4780362834346 -73.5795622780671,45.4778432241049 -73.5799448554956,45.4780263458139</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="Text_">SAINTE-MARIA-GORETTI</SimpleData>
+		<SimpleData name="Index">0798-051</SimpleData>
+		<SimpleData name="NomArrond">Rivière-des-PrairiesPointe-aux-Trembles</SimpleData>
+		<SimpleData name="RueN">terrasse Sainte-Maria-Goretti</SimpleData>
+		<SimpleData name="RueS">rue Bureau</SimpleData>
+		<SimpleData name="RueE">96e avenue</SimpleData>
+		<SimpleData name="RueO">94e avenue</SimpleData>
+		<SimpleData name="N_Jardinet">24</SimpleData>
+		<SimpleData name="SHAPE_Leng">123.71290002200</SimpleData>
+		<SimpleData name="SHAPE_Area">824.07355000400</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.4822839461479,45.6981208462317 -73.4823812705756,45.69774437986 -73.4826297352534,45.6977655634933 -73.4825330554017,45.6981391507749 -73.4822839461479,45.6981208462317</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="Text_">PIERRE-LACROIX</SimpleData>
+		<SimpleData name="Index">0690-000</SimpleData>
+		<SimpleData name="NomArrond">Rivière-des-PrairiesPointe-aux-Trembles</SimpleData>
+		<SimpleData name="RueN">rue De La Gauchetière</SimpleData>
+		<SimpleData name="RueS">rue Parent</SimpleData>
+		<SimpleData name="RueE">rue Pierre-Lacroix</SimpleData>
+		<SimpleData name="RueO">18e avenue</SimpleData>
+		<SimpleData name="N_Jardinet">118</SimpleData>
+		<SimpleData name="SHAPE_Leng">321.52605361600</SimpleData>
+		<SimpleData name="SHAPE_Area">4749.68735006000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.4960288609918,45.6464356255419 -73.4945177367059,45.6462020596385 -73.494632334374,45.6458489755535 -73.4961013707094,45.6460759698383 -73.4960139858066,45.6463419537258 -73.4960534991383,45.646347983894 -73.4960288609918,45.6464356255419</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="Text_">SOULIGNY</SimpleData>
+		<SimpleData name="Index">0798-656</SimpleData>
+		<SimpleData name="NomArrond">MercierHochelaga-Maisonneuve</SimpleData>
+		<SimpleData name="RueN">rue Hochelaga</SimpleData>
+		<SimpleData name="RueS">avenue Souligny</SimpleData>
+		<SimpleData name="RueE">avenue Desroches</SimpleData>
+		<SimpleData name="N_Jardinet">125</SimpleData>
+		<SimpleData name="SHAPE_Leng">381.98419233000</SimpleData>
+		<SimpleData name="SHAPE_Area">5715.23319998000</SimpleData>
+		<SimpleData name="Nbacs">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5227679603785,45.5936376619909 -73.5226137490061,45.5939036819769 -73.5225659734644,45.5939849459507 -73.5223524129606,45.5939198403425 -73.5223458676584,45.5938983357182 -73.5217750522274,45.5937273885176 -73.5219303042227,45.5934916037008 -73.522136650402,45.5931426103155 -73.5223427152626,45.5927371073404 -73.5223952585558,45.5927217999617 -73.5228095519691,45.5928467042174 -73.5224118578455,45.5935302928604 -73.5224827484192,45.5935603332097 -73.5226136252291,45.5935954906799 -73.5226159304668,45.5935909010971 -73.5227679603785,45.5936376619909</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="Text_">ARC-EN-SOL</SimpleData>
+		<SimpleData name="Index">0798-006</SimpleData>
+		<SimpleData name="NomArrond">MercierHochelaga-Maisonneuve</SimpleData>
+		<SimpleData name="RueN">avenue Pierre-De Coubertin</SimpleData>
+		<SimpleData name="RueS">rue Hochelaga</SimpleData>
+		<SimpleData name="RueE">rue Arcand</SimpleData>
+		<SimpleData name="RueO">rue Desautels</SimpleData>
+		<SimpleData name="N_Jardinet">112</SimpleData>
+		<SimpleData name="SHAPE_Leng">256.09789250400</SimpleData>
+		<SimpleData name="SHAPE_Area">3596.81775010000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.532031848381,45.582013870655 -73.5315519851821,45.5818550041411 -73.5320043168779,45.5811462617044 -73.5324905823164,45.5813048545681 -73.532031848381,45.582013870655</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="Text_">PIERRE-BERTRAND</SimpleData>
+		<SimpleData name="Index">0798-100</SimpleData>
+		<SimpleData name="NomArrond">MercierHochelaga-Maisonneuve</SimpleData>
+		<SimpleData name="RueN">rue Bisaillon</SimpleData>
+		<SimpleData name="RueS">rue Sherbrooke</SimpleData>
+		<SimpleData name="RueE">boulevard Pierre-Bernard</SimpleData>
+		<SimpleData name="RueO">rue Joffre</SimpleData>
+		<SimpleData name="N_Jardinet">29</SimpleData>
+		<SimpleData name="SHAPE_Leng">175.74330851600</SimpleData>
+		<SimpleData name="SHAPE_Area">1490.53665002000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5299283743115,45.6068940710487 -73.5296059701833,45.6074243328627 -73.5295784102077,45.6074311786831 -73.5293315822294,45.6073586263236 -73.5296570580959,45.6068145071507 -73.5299283743115,45.6068940710487</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="Text_">DUPÉRÉ</SimpleData>
+		<SimpleData name="Index">0798-108</SimpleData>
+		<SimpleData name="NomArrond">MercierHochelaga-Maisonneuve</SimpleData>
+		<SimpleData name="RueN">rue De Forbin-Janson</SimpleData>
+		<SimpleData name="RueS">rue Sherbrooke</SimpleData>
+		<SimpleData name="RueE">rue Saint-Donat</SimpleData>
+		<SimpleData name="RueO">rue  Honoré-Beaugrand</SimpleData>
+		<SimpleData name="N_Jardinet">132</SimpleData>
+		<SimpleData name="SHAPE_Leng">359.31125451100</SimpleData>
+		<SimpleData name="SHAPE_Area">7567.74930002000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5342731285514,45.6014314400258 -73.5342446766162,45.6014413466602 -73.5334765604985,45.6012133780806 -73.5340404071895,45.6002751412181 -73.5348315874243,45.6005047187039 -73.5342731285514,45.6014314400258</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">29</SimpleData>
+		<SimpleData name="Text_">B.P. TÉTREAULVILLE</SimpleData>
+		<SimpleData name="Index">0798-003</SimpleData>
+		<SimpleData name="NomArrond">MercierHochelaga-Maisonneuve</SimpleData>
+		<SimpleData name="RueN">rue de Teck</SimpleData>
+		<SimpleData name="RueS">rue de Marseille</SimpleData>
+		<SimpleData name="RueE">rue Aubry</SimpleData>
+		<SimpleData name="RueO">rue Bolduc</SimpleData>
+		<SimpleData name="N_Jardinet">60</SimpleData>
+		<SimpleData name="SHAPE_Leng">254.20843112400</SimpleData>
+		<SimpleData name="SHAPE_Area">3501.37345000000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5233771818647,45.60974480969 -73.5235325521756,45.6093958252008 -73.5246116382491,45.6096121859849 -73.5245637353713,45.6097193655904 -73.5245332505712,45.6097851494322 -73.5244433202136,45.6099501968209 -73.5233771818647,45.60974480969</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">30</SimpleData>
+		<SimpleData name="Text_">LES DEUX SAPINS</SimpleData>
+		<SimpleData name="Index">0798-040</SimpleData>
+		<SimpleData name="NomArrond">Rivière-des-PrairiesPointe-aux-Trembles</SimpleData>
+		<SimpleData name="RueN">boulevard Gouin</SimpleData>
+		<SimpleData name="RueS">boulevard Perras</SimpleData>
+		<SimpleData name="RueE">94e avenue</SimpleData>
+		<SimpleData name="RueO">89e avenue</SimpleData>
+		<SimpleData name="N_Jardinet">29</SimpleData>
+		<SimpleData name="SHAPE_Leng">126.87369889100</SimpleData>
+		<SimpleData name="SHAPE_Area">988.63469927600</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5392311525882,45.672711504324 -73.5395317615744,45.6725254916458 -73.5397458296318,45.6728148713715 -73.5393840931058,45.6729395312011 -73.5392311525882,45.672711504324</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">31</SimpleData>
+		<SimpleData name="Text_">MARSEILLE</SimpleData>
+		<SimpleData name="Index">0798-009</SimpleData>
+		<SimpleData name="NomArrond">MercierHochelaga-Maisonneuve</SimpleData>
+		<SimpleData name="RueN">rue Sherbrooke</SimpleData>
+		<SimpleData name="RueS">rue de Marseille</SimpleData>
+		<SimpleData name="RueE">avenue de la Pépinière</SimpleData>
+		<SimpleData name="RueO">rue Du Quesne</SimpleData>
+		<SimpleData name="N_Jardinet">11</SimpleData>
+		<SimpleData name="SHAPE_Leng">66.12315611380</SimpleData>
+		<SimpleData name="SHAPE_Area">235.22839999400</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5416652671605,45.5763015156538 -73.5417822803832,45.5763404356175 -73.5416590352933,45.5765378136577 -73.5415840638657,45.5765188545303 -73.5415685131857,45.5764556020418 -73.5416652671605,45.5763015156538</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">32</SimpleData>
+		<SimpleData name="Text_">HABITATIONS JEANNE-MANCE</SimpleData>
+		<SimpleData name="Index">0798-037</SimpleData>
+		<SimpleData name="NomArrond">Ville-Marie</SimpleData>
+		<SimpleData name="RueN">rue Ontario</SimpleData>
+		<SimpleData name="RueS">boulevard de Maisonneuve</SimpleData>
+		<SimpleData name="RueE">rue Sanguinet</SimpleData>
+		<SimpleData name="RueO">rue Saint-Dominique</SimpleData>
+		<SimpleData name="N_Jardinet">55</SimpleData>
+		<SimpleData name="SHAPE_Leng">192.05694244100</SimpleData>
+		<SimpleData name="SHAPE_Area">1759.27570003000</SimpleData>
+		<SimpleData name="Nbacs">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5637866778782,45.5125171039509 -73.5645520571493,45.512867792158 -73.5643879303394,45.5130515424308 -73.5636151354523,45.5127089558389 -73.5637866778782,45.5125171039509</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">33</SimpleData>
+		<SimpleData name="Text_">VICTORIA</SimpleData>
+		<SimpleData name="Index">0798-031</SimpleData>
+		<SimpleData name="NomArrond">Côte-des-NeigesNotre-Dame-de-Grâce</SimpleData>
+		<SimpleData name="RueN">avenue Bourret</SimpleData>
+		<SimpleData name="RueS">chemin de la Côte-Sainte-Catherine</SimpleData>
+		<SimpleData name="RueE">avenue Victoria</SimpleData>
+		<SimpleData name="RueO">rue Lemieux</SimpleData>
+		<SimpleData name="N_Jardinet">139</SimpleData>
+		<SimpleData name="SHAPE_Leng">336.97790875600</SimpleData>
+		<SimpleData name="SHAPE_Area">5722.83270739000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6350677901796,45.492031409961 -73.6343986588484,45.4927836595437 -73.6342733219294,45.4927275329042 -73.6343545639999,45.4926421053861 -73.6343203656158,45.4926270141531 -73.6342367934809,45.4927111424225 -73.633777224063,45.49250543715 -73.634437760818,45.4917415932876 -73.6350677901796,45.492031409961</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">34</SimpleData>
+		<SimpleData name="Text_">FAUBOURG SAINT-LAURENT</SimpleData>
+		<SimpleData name="Index">0798-033</SimpleData>
+		<SimpleData name="NomArrond">Ville-Marie</SimpleData>
+		<SimpleData name="RueN">rue Sainte-Catherine</SimpleData>
+		<SimpleData name="RueS">rue Charlotte</SimpleData>
+		<SimpleData name="RueE">rue De Bullion</SimpleData>
+		<SimpleData name="RueO">rue Berger</SimpleData>
+		<SimpleData name="N_Jardinet">12</SimpleData>
+		<SimpleData name="SHAPE_Leng">92.72704872830</SimpleData>
+		<SimpleData name="SHAPE_Area">412.71245000900</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5620903917678,45.5108200373269 -73.5619627278572,45.5107610770244 -73.5621933195219,45.5104980179278 -73.5623229037091,45.5105577867854 -73.5620903917678,45.5108200373269</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">35</SimpleData>
+		<SimpleData name="Text_">DES SEIGNEURS</SimpleData>
+		<SimpleData name="Index">0798-026</SimpleData>
+		<SimpleData name="NomArrond">Le Sud-Ouest</SimpleData>
+		<SimpleData name="RueN">rue Quesnel</SimpleData>
+		<SimpleData name="RueS">rue Saint-Jacques</SimpleData>
+		<SimpleData name="RueE">rue des Seigneurs</SimpleData>
+		<SimpleData name="RueO">rue Chatham</SimpleData>
+		<SimpleData name="N_Jardinet">109</SimpleData>
+		<SimpleData name="SHAPE_Leng">264.50986093600</SimpleData>
+		<SimpleData name="SHAPE_Area">3290.00975003000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5729792373769,45.4894550044691 -73.5723517138614,45.4891525157601 -73.5726666400001,45.4888170335115 -73.5729570941484,45.4889513752404 -73.5730828001595,45.4890095148729 -73.5731760669375,45.4889130817361 -73.5732785319876,45.488806924292 -73.5735061394162,45.4889161092565 -73.5729792373769,45.4894550044691</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">36</SimpleData>
+		<SimpleData name="Text_">LA POINTE-VERTE</SimpleData>
+		<SimpleData name="Index">0798-257</SimpleData>
+		<SimpleData name="NomArrond">Le Sud-Ouest</SimpleData>
+		<SimpleData name="RueN">rue Mullins</SimpleData>
+		<SimpleData name="RueS">rue Knox</SimpleData>
+		<SimpleData name="RueE">rue d'Hybernia</SimpleData>
+		<SimpleData name="RueO">rue Charlevoix</SimpleData>
+		<SimpleData name="N_Jardinet">50</SimpleData>
+		<SimpleData name="SHAPE_Leng">138.19712310600</SimpleData>
+		<SimpleData name="SHAPE_Area">1121.69958662000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5641431641066,45.4774528004792 -73.5644325546207,45.4771490348207 -73.5647946023824,45.4773175148067 -73.5643833757621,45.4775556148756 -73.5641431641066,45.4774528004792</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">37</SimpleData>
+		<SimpleData name="Text_">MILE-END</SimpleData>
+		<SimpleData name="Index">0798-699</SimpleData>
+		<SimpleData name="NomArrond">Le Plateau-Mont-Royal</SimpleData>
+		<SimpleData name="RueN">rue Maguire</SimpleData>
+		<SimpleData name="RueS">rue Boucher</SimpleData>
+		<SimpleData name="RueE">avenue Henri-Julien</SimpleData>
+		<SimpleData name="RueO">avenue De Gaspé</SimpleData>
+		<SimpleData name="N_Jardinet">93</SimpleData>
+		<SimpleData name="SHAPE_Leng">199.51899874600</SimpleData>
+		<SimpleData name="SHAPE_Area">2240.60030000000</SimpleData>
+		<SimpleData name="Nbacs">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5927861396494,45.5267911948126 -73.5931175010758,45.5264318892952 -73.5933688729341,45.5265524425506 -73.5933339860413,45.5265900843439 -73.5936435153858,45.5267320956185 -73.5933825725677,45.5270176482648 -73.5931373603203,45.5269072582112 -73.5931105235889,45.5269359849615 -73.5927861396494,45.5267911948126</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">38</SimpleData>
+		<SimpleData name="Text_">SAINT-MARC</SimpleData>
+		<SimpleData name="Index">0798-200</SimpleData>
+		<SimpleData name="NomArrond">Rosemont La Petite-Patrie</SimpleData>
+		<SimpleData name="RueN">rue Bélanger</SimpleData>
+		<SimpleData name="RueS">rue Saint-Zotique</SimpleData>
+		<SimpleData name="RueE">2e avenue</SimpleData>
+		<SimpleData name="RueO">1re avenue</SimpleData>
+		<SimpleData name="N_Jardinet">23</SimpleData>
+		<SimpleData name="SHAPE_Leng">170.08275648500</SimpleData>
+		<SimpleData name="SHAPE_Area">1108.28054999000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5955397092634,45.5530273683505 -73.5962772597665,45.5533695863035 -73.5961628348459,45.5534906205174 -73.5954272032665,45.5531475903784 -73.5955397092634,45.5530273683505</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">39</SimpleData>
+		<SimpleData name="Text_">SAINTE-MARTHE</SimpleData>
+		<SimpleData name="Index">0798-053</SimpleData>
+		<SimpleData name="NomArrond">Rivière-des-PrairiesPointe-aux-Trembles</SimpleData>
+		<SimpleData name="RueN">rue Jacques-Rousseau</SimpleData>
+		<SimpleData name="RueS">boulevard Perras</SimpleData>
+		<SimpleData name="RueE">boulevard Armand-Bombardier</SimpleData>
+		<SimpleData name="RueO">avenue Élie-Beauregard</SimpleData>
+		<SimpleData name="N_Jardinet">71</SimpleData>
+		<SimpleData name="SHAPE_Leng">225.78064312400</SimpleData>
+		<SimpleData name="SHAPE_Area">3085.31824996000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5985856685174,45.6385907201738 -73.5979025919129,45.6389480868442 -73.5975473317198,45.6386132071993 -73.5982311747423,45.6382550321336 -73.5985856685174,45.6385907201738</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">40</SimpleData>
+		<SimpleData name="Text_">LA MENNAIS</SimpleData>
+		<SimpleData name="Index">0798-018</SimpleData>
+		<SimpleData name="NomArrond">Rosemont La Petite-Patrie</SimpleData>
+		<SimpleData name="RueN">rue Sainte-Zotique</SimpleData>
+		<SimpleData name="RueS">rue Beaubien</SimpleData>
+		<SimpleData name="RueE">rue Saint-Denis</SimpleData>
+		<SimpleData name="RueO">rue Drolet</SimpleData>
+		<SimpleData name="N_Jardinet">56</SimpleData>
+		<SimpleData name="SHAPE_Leng">206.60924268500</SimpleData>
+		<SimpleData name="SHAPE_Area">1932.85084995000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6063079762642,45.534019243775 -73.6062938799786,45.5340126880739 -73.6060139139038,45.5343108846424 -73.6057587770613,45.5341954919383 -73.6062963129425,45.5336050591125 -73.6065740024035,45.5337310476805 -73.6063079762642,45.534019243775</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">41</SimpleData>
+		<SimpleData name="Text_">SAINT-RAYMOND</SimpleData>
+		<SimpleData name="Index">0798-273</SimpleData>
+		<SimpleData name="NomArrond">Côte-des-NeigesNotre-Dame-de-Grâce</SimpleData>
+		<SimpleData name="RueN">boulevard Maisonneuve</SimpleData>
+		<SimpleData name="RueS">chemin Upper-Lachine</SimpleData>
+		<SimpleData name="RueE">avenue Old Orchard</SimpleData>
+		<SimpleData name="RueO">avenue d'Oxford</SimpleData>
+		<SimpleData name="N_Jardinet">21</SimpleData>
+		<SimpleData name="SHAPE_Leng">140.90272260400</SimpleData>
+		<SimpleData name="SHAPE_Area">812.61364997300</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6095958505153,45.4700667993025 -73.6100255075462,45.4698406143268 -73.6101180939049,45.4699030645662 -73.6101751925816,45.4699336043496 -73.6096558387592,45.4702025288333 -73.6094538566442,45.4701148073774 -73.609505675748,45.4700607668166 -73.6095958505153,45.4700667993025</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">42</SimpleData>
+		<SimpleData name="Text_">ANGRIGNON</SimpleData>
+		<SimpleData name="Index">0798-052</SimpleData>
+		<SimpleData name="NomArrond">Le Sud-Ouest</SimpleData>
+		<SimpleData name="RueN">boulevard Newman</SimpleData>
+		<SimpleData name="RueS">boulevard De La Vérendrye</SimpleData>
+		<SimpleData name="RueE">boulevard des Trinitaires</SimpleData>
+		<SimpleData name="RueO">rue Ducas</SimpleData>
+		<SimpleData name="N_Jardinet">110</SimpleData>
+		<SimpleData name="SHAPE_Leng">382.74546269100</SimpleData>
+		<SimpleData name="SHAPE_Area">8612.63980009000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.599898463103,45.4456303613866 -73.5998090234955,45.445656085358 -73.5994552317598,45.4449613481238 -73.600099746977,45.4448028610659 -73.6001973651769,45.4447764098074 -73.6002065509655,45.4448383115848 -73.6006958273073,45.4447261196617 -73.6009760638167,45.4453134757797 -73.6008843169567,45.4453351532994 -73.6009413004473,45.445461172246 -73.5999419510751,45.4457162592229 -73.599898463103,45.4456303613866</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">43</SimpleData>
+		<SimpleData name="Text_">LE GOUPILLIER</SimpleData>
+		<SimpleData name="Index">0798-041</SimpleData>
+		<SimpleData name="NomArrond">VilleraySaint-MichelParc-Extension</SimpleData>
+		<SimpleData name="RueN">rue J.-B.-Matineau</SimpleData>
+		<SimpleData name="RueS">54e rue</SimpleData>
+		<SimpleData name="RueE">rue de Meaux</SimpleData>
+		<SimpleData name="RueO">boulevard Pie-1X</SimpleData>
+		<SimpleData name="N_Jardinet">68</SimpleData>
+		<SimpleData name="SHAPE_Leng">251.39369831800</SimpleData>
+		<SimpleData name="SHAPE_Area">2010.25379995000</SimpleData>
+		<SimpleData name="Nbacs">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.625651261093,45.583740911431 -73.6257614723033,45.583627591503 -73.6262817293335,45.5830444674049 -73.6265056946292,45.583142571071 -73.6258837892894,45.5838279389732 -73.6257892533124,45.5837875507444 -73.6256922393654,45.583900046329 -73.6255598616228,45.5838426927482 -73.625651261093,45.583740911431</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">44</SimpleData>
+		<SimpleData name="Text_">LE MICHELOIS</SimpleData>
+		<SimpleData name="Index">0798-019</SimpleData>
+		<SimpleData name="NomArrond">VilleraySaint-MichelParc-Extension</SimpleData>
+		<SimpleData name="RueN">rue Denis-Papin</SimpleData>
+		<SimpleData name="RueS">boulevard Robert</SimpleData>
+		<SimpleData name="RueE">12e avenue</SimpleData>
+		<SimpleData name="RueO">boulevard Saint-Michel</SimpleData>
+		<SimpleData name="N_Jardinet">64</SimpleData>
+		<SimpleData name="SHAPE_Leng">167.50932898500</SimpleData>
+		<SimpleData name="SHAPE_Area">1736.07885003000</SimpleData>
+		<SimpleData name="Nbacs">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6195358133499,45.5683726830479 -73.6192245999269,45.5687242129756 -73.6188127138887,45.5685430558678 -73.6191303373938,45.5681928701157 -73.6195358133499,45.5683726830479</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">45</SimpleData>
+		<SimpleData name="Text_">VILLERAY</SimpleData>
+		<SimpleData name="Index">0798-022</SimpleData>
+		<SimpleData name="NomArrond">VilleraySaint-MichelParc-Extension</SimpleData>
+		<SimpleData name="RueN">rue Jarry</SimpleData>
+		<SimpleData name="RueS">rue Villeray</SimpleData>
+		<SimpleData name="RueE">avenue Christophe-Colomb</SimpleData>
+		<SimpleData name="RueO">rue Boyer</SimpleData>
+		<SimpleData name="N_Jardinet">238</SimpleData>
+		<SimpleData name="SHAPE_Leng">399.82984873700</SimpleData>
+		<SimpleData name="SHAPE_Area">6307.53759989000</SimpleData>
+		<SimpleData name="Nbacs">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6236760735755,45.5475309910252 -73.6219389710748,45.5467567498672 -73.6222027796643,45.5464590721082 -73.6239443495976,45.5472290752184 -73.6236760735755,45.5475309910252</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">46</SimpleData>
+		<SimpleData name="Text_">DE NORMANVILLE</SimpleData>
+		<SimpleData name="Index">0798-238</SimpleData>
+		<SimpleData name="NomArrond">VilleraySaint-MichelParc-Extension</SimpleData>
+		<SimpleData name="RueN">rue Jarry</SimpleData>
+		<SimpleData name="RueS">rue Tillemont</SimpleData>
+		<SimpleData name="RueE">rue Chambord</SimpleData>
+		<SimpleData name="RueO">rue DE Normanville</SimpleData>
+		<SimpleData name="N_Jardinet">28</SimpleData>
+		<SimpleData name="SHAPE_Leng">142.78055250600</SimpleData>
+		<SimpleData name="SHAPE_Area">1141.08319998000</SimpleData>
+		<SimpleData name="Nbacs">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6199760249224,45.5484561889992 -73.6199914868781,45.5483196676552 -73.6200958726092,45.5483244170753 -73.6201002405848,45.5482706922798 -73.6202664887644,45.5482780759962 -73.6205118413905,45.5483857977327 -73.6204994052902,45.5484993701392 -73.6205155576718,45.548506731754 -73.6204226673567,45.5486077013136 -73.6204584348246,45.5486246705007 -73.6204282913296,45.5486624953879 -73.6199760249224,45.5484561889992</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">47</SimpleData>
+		<SimpleData name="Text_">RENCONTRES</SimpleData>
+		<SimpleData name="Index">0798-030</SimpleData>
+		<SimpleData name="NomArrond">Côte-des-NeigesNotre-Dame-de-Grâce</SimpleData>
+		<SimpleData name="RueN">avenue Notre-Dame-de-Grâce</SimpleData>
+		<SimpleData name="RueS">chemin de la Côte-Saint-Antoine</SimpleData>
+		<SimpleData name="RueE">autoroute 15</SimpleData>
+		<SimpleData name="RueO">avenue Girouard</SimpleData>
+		<SimpleData name="N_Jardinet">39</SimpleData>
+		<SimpleData name="SHAPE_Leng">171.45144510300</SimpleData>
+		<SimpleData name="SHAPE_Area">1489.03449998000</SimpleData>
+		<SimpleData name="Nbacs">39</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6164397183073,45.4754906096859 -73.6164791450281,45.4755064068036 -73.6166702630594,45.4755832386982 -73.6162497895786,45.4760541075855 -73.6159496992815,45.4759164659949 -73.6164397183073,45.4754906096859</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">48</SimpleData>
+		<SimpleData name="Text_">CHÂTEAUFORT</SimpleData>
+		<SimpleData name="Index">0798-145</SimpleData>
+		<SimpleData name="NomArrond">Côte-des-NeigesNotre-Dame-de-Grâce</SimpleData>
+		<SimpleData name="RueN">avenue Barday</SimpleData>
+		<SimpleData name="RueS">avenue Van Horne</SimpleData>
+		<SimpleData name="RueE">avenue de Darlington</SimpleData>
+		<SimpleData name="RueO">chemin Hudson</SimpleData>
+		<SimpleData name="N_Jardinet">164</SimpleData>
+		<SimpleData name="SHAPE_Leng">350.92581823100</SimpleData>
+		<SimpleData name="SHAPE_Area">6534.59263402000</SimpleData>
+		<SimpleData name="Nbacs">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6260997507475,45.5077870428973 -73.6260853638651,45.5077576887686 -73.6264144891696,45.5073049658291 -73.6266883386582,45.507159021546 -73.6270432742333,45.5069613565848 -73.627334121138,45.5070655803772 -73.6274269620462,45.5070262718394 -73.6276366356663,45.5070985074056 -73.6275440135482,45.5072320279629 -73.6274766512888,45.5073244269853 -73.6273883607633,45.5074433946569 -73.6273378375939,45.5075121989444 -73.6272098541917,45.5076907549686 -73.6269633370352,45.5076635193611 -73.6269467234556,45.507673886012 -73.6269453470739,45.5076878350976 -73.6268493426245,45.5076778635131 -73.6268308067564,45.5076870624867 -73.6268206254541,45.5077506392145 -73.6267111297181,45.5077684243487 -73.626661004465,45.5077637192109 -73.6263822762666,45.5078897358979 -73.6260997507475,45.5077870428973</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">49</SimpleData>
+		<SimpleData name="Text_">BABYLONE</SimpleData>
+		<SimpleData name="Index">0798-296</SimpleData>
+		<SimpleData name="NomArrond">VilleraySaint-MichelParc-Extension</SimpleData>
+		<SimpleData name="RueN">rue Jarry</SimpleData>
+		<SimpleData name="RueS">rue Saint-Roch</SimpleData>
+		<SimpleData name="RueE">parc Jarry</SimpleData>
+		<SimpleData name="RueO">rue Durocher</SimpleData>
+		<SimpleData name="N_Jardinet">178</SimpleData>
+		<SimpleData name="SHAPE_Leng">309.56153053000</SimpleData>
+		<SimpleData name="SHAPE_Area">5252.42075001000</SimpleData>
+		<SimpleData name="Nbacs">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6333987493898,45.5329643747519 -73.6320989674805,45.5327511837781 -73.6323925386948,45.5322565626805 -73.6336141687333,45.5326142658331 -73.6333987493898,45.5329643747519</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">50</SimpleData>
+		<SimpleData name="Text_">SAINT-SULPICE</SimpleData>
+		<SimpleData name="Index">0798-425</SimpleData>
+		<SimpleData name="NomArrond">Ahuntsic-Cartierville</SimpleData>
+		<SimpleData name="RueN">avenue Émile-Journault</SimpleData>
+		<SimpleData name="RueS">rue Étienne-Blanchard</SimpleData>
+		<SimpleData name="RueE">avenie André-Grasset</SimpleData>
+		<SimpleData name="RueO">avenue Christophe-Colomb</SimpleData>
+		<SimpleData name="N_Jardinet">259</SimpleData>
+		<SimpleData name="SHAPE_Leng">398.05526004400</SimpleData>
+		<SimpleData name="SHAPE_Area">9703.29279989000</SimpleData>
+		<SimpleData name="Nbacs">16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6353716254159,45.5573518496836 -73.6349630844956,45.5571638177567 -73.6349103824169,45.5571396744609 -73.6344787587729,45.5569390703694 -73.6352432770492,45.5560689275805 -73.6354022631779,45.5561354169958 -73.6357183284836,45.5562738864172 -73.6358959031988,45.5563465619163 -73.6361638906796,45.5564652909221 -73.6353862214424,45.5573493128495 -73.6353716254159,45.5573518496836</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">51</SimpleData>
+		<SimpleData name="Text_">DE LILLE</SimpleData>
+		<SimpleData name="Index">0798-017</SimpleData>
+		<SimpleData name="NomArrond">VilleraySaint-MichelParc-Extension</SimpleData>
+		<SimpleData name="RueN">avenue Charland</SimpleData>
+		<SimpleData name="RueS">rue Chamdoré</SimpleData>
+		<SimpleData name="RueE">avenue Bruchesi</SimpleData>
+		<SimpleData name="RueO">rue de Lille</SimpleData>
+		<SimpleData name="N_Jardinet">50</SimpleData>
+		<SimpleData name="SHAPE_Leng">162.69144364700</SimpleData>
+		<SimpleData name="SHAPE_Area">1251.60555004000</SimpleData>
+		<SimpleData name="Nbacs">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6381084071994,45.5699669386821 -73.6377111090471,45.570436321 -73.6374815444667,45.570341035304 -73.6378840992954,45.569872727231 -73.6381084071994,45.5699669386821</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">52</SimpleData>
+		<SimpleData name="Text_">AHUNTSIC</SimpleData>
+		<SimpleData name="Index">0798-013</SimpleData>
+		<SimpleData name="NomArrond">Ahuntsic-Cartierville</SimpleData>
+		<SimpleData name="RueN">rue Prieur</SimpleData>
+		<SimpleData name="RueS">rue Fleury</SimpleData>
+		<SimpleData name="RueE">rue Sackville</SimpleData>
+		<SimpleData name="RueO">rue André-Jobin</SimpleData>
+		<SimpleData name="N_Jardinet">130</SimpleData>
+		<SimpleData name="SHAPE_Leng">280.69729065800</SimpleData>
+		<SimpleData name="SHAPE_Area">4923.89190004000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.648638007248,45.5774028919175 -73.6493889370088,45.5777164034269 -73.6489264185313,45.5782681539534 -73.6481556159256,45.5779519657151 -73.6485212408623,45.5775350490391 -73.648638007248,45.5774028919175</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">53</SimpleData>
+		<SimpleData name="Text_">CHAMPDORÉ</SimpleData>
+		<SimpleData name="Index">0798-015</SimpleData>
+		<SimpleData name="NomArrond">VilleraySaint-MichelParc-Extension</SimpleData>
+		<SimpleData name="RueN">rue Champdoré</SimpleData>
+		<SimpleData name="RueS">par CESM</SimpleData>
+		<SimpleData name="RueE">rue des Prairies</SimpleData>
+		<SimpleData name="RueO">avenue Papineau</SimpleData>
+		<SimpleData name="N_Jardinet">213</SimpleData>
+		<SimpleData name="SHAPE_Leng">373.23523724700</SimpleData>
+		<SimpleData name="SHAPE_Area">6296.56590005000</SimpleData>
+		<SimpleData name="Nbacs">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6420494967355,45.5650641357437 -73.6419755503215,45.5651543009789 -73.6420982771607,45.5652054388801 -73.6412222116777,45.5661990412341 -73.6407232023978,45.5659836970896 -73.6416797686869,45.5649059542851 -73.6420494967355,45.5650641357437</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">54</SimpleData>
+		<SimpleData name="Text_">NOTRE-DAME-DE-GRÂCE</SimpleData>
+		<SimpleData name="Index">0798-028</SimpleData>
+		<SimpleData name="NomArrond">Côte-des-NeigesNotre-Dame-de-Grâce</SimpleData>
+		<SimpleData name="RueN">chemin de la Côte-Saint-Luc</SimpleData>
+		<SimpleData name="RueS">avenue de Chester</SimpleData>
+		<SimpleData name="RueE">avenue Rosedale</SimpleData>
+		<SimpleData name="RueO">avenue Coronation</SimpleData>
+		<SimpleData name="N_Jardinet">46</SimpleData>
+		<SimpleData name="SHAPE_Leng">156.42786712700</SimpleData>
+		<SimpleData name="SHAPE_Area">1271.21744999000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6510670383273,45.467483258742 -73.651411291307,45.4670482659938 -73.6516692422577,45.4671469071471 -73.6513289502797,45.4675800957203 -73.6510670383273,45.467483258742</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">55</SimpleData>
+		<SimpleData name="Text_">DE LA SAVANE</SimpleData>
+		<SimpleData name="Index">0798-700</SimpleData>
+		<SimpleData name="NomArrond">Côte-des-NeigesNotre-Dame-de-Grâce</SimpleData>
+		<SimpleData name="RueN">rue de la Savane</SimpleData>
+		<SimpleData name="RueS">rue Paré</SimpleData>
+		<SimpleData name="RueE">rue Jean-Talon</SimpleData>
+		<SimpleData name="RueO">avenue Mountain Sights</SimpleData>
+		<SimpleData name="N_Jardinet">26</SimpleData>
+		<SimpleData name="SHAPE_Leng">127.96099579700</SimpleData>
+		<SimpleData name="SHAPE_Area">871.28859997900</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6551742955793,45.4989259384993 -73.6550070234698,45.4988205239498 -73.6549523759962,45.4988634306538 -73.6547549827166,45.4987389799016 -73.6549770292383,45.4985681584709 -73.655341436807,45.4987973936097 -73.6551742955793,45.4989259384993</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">56</SimpleData>
+		<SimpleData name="Text_">CHRIST-ROI</SimpleData>
+		<SimpleData name="Index">0798-016</SimpleData>
+		<SimpleData name="NomArrond">Ahuntsic-Cartierville</SimpleData>
+		<SimpleData name="RueN">rue de Port-Royal</SimpleData>
+		<SimpleData name="RueS">rue Frémont</SimpleData>
+		<SimpleData name="RueE">rue Saint-Hubert</SimpleData>
+		<SimpleData name="RueO">rue Foucher</SimpleData>
+		<SimpleData name="N_Jardinet">56</SimpleData>
+		<SimpleData name="SHAPE_Leng">207.36646980300</SimpleData>
+		<SimpleData name="SHAPE_Area">1738.03230003000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6521537911998,45.5524070132203 -73.6517308256983,45.5531010788014 -73.6515198283434,45.5530344111237 -73.6515148382871,45.5529886161319 -73.6519029414809,45.5523320308479 -73.6521537911998,45.5524070132203</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">57</SimpleData>
+		<SimpleData name="Text_">LES CASTORS</SimpleData>
+		<SimpleData name="Index">0798-020</SimpleData>
+		<SimpleData name="NomArrond">Ahuntsic-Cartierville</SimpleData>
+		<SimpleData name="RueN">rue Sauvé</SimpleData>
+		<SimpleData name="RueS">rue Frémont</SimpleData>
+		<SimpleData name="RueE">rue Lajeunesse</SimpleData>
+		<SimpleData name="RueO">rue Berri</SimpleData>
+		<SimpleData name="N_Jardinet">18</SimpleData>
+		<SimpleData name="SHAPE_Leng">152.88822122800</SimpleData>
+		<SimpleData name="SHAPE_Area">526.98120000500</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6535525153562,45.5502866590691 -73.6537337449192,45.5503360862451 -73.6535890894356,45.550407637789 -73.6533912468415,45.5507483114105 -73.6534243905867,45.5508324015231 -73.6532639097848,45.5507837558768 -73.6535525153562,45.5502866590691</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">58</SimpleData>
+		<SimpleData name="Text_">PIERRE-LAPOINTE</SimpleData>
+		<SimpleData name="Index">0798-007</SimpleData>
+		<SimpleData name="NomArrond">Ahuntsic-Cartierville</SimpleData>
+		<SimpleData name="RueN">boulevard Henri-Bourassa</SimpleData>
+		<SimpleData name="RueS">rue Fleury</SimpleData>
+		<SimpleData name="RueE">rue Saint-Hubert</SimpleData>
+		<SimpleData name="RueO">rue Lajeunesse</SimpleData>
+		<SimpleData name="N_Jardinet">68</SimpleData>
+		<SimpleData name="SHAPE_Leng">202.48295058300</SimpleData>
+		<SimpleData name="SHAPE_Area">2519.66130000000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6661170038127,45.5573440322954 -73.665635234628,45.5572039077493 -73.665641685153,45.5571760035259 -73.6656537572554,45.5571432320437 -73.6656696439453,45.557100916782 -73.6656896360243,45.5570608451496 -73.6657023765459,45.5570376109384 -73.6657169121327,45.5570150040059 -73.6657314519402,45.5569938368006 -73.6657563345365,45.5569616766047 -73.6657710087527,45.5569426688021 -73.6657856850759,45.5569243808622 -73.6658218181088,45.5568850056472 -73.6658469816617,45.5568613034681 -73.6658800778534,45.5568346203107 -73.6659163685088,45.5568053229837 -73.6659469137559,45.5567823328334 -73.6659728632152,45.5567645683929 -73.6659970284502,45.5567498659767 -73.6660160794742,45.556738320409 -73.6664433916686,45.5567860197231 -73.6661170038127,45.5573440322954</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">59</SimpleData>
+		<SimpleData name="Text_">MARCELIN-WILSON</SimpleData>
+		<SimpleData name="Index">0798-035</SimpleData>
+		<SimpleData name="NomArrond">Ahuntsic-Cartierville</SimpleData>
+		<SimpleData name="RueN">rue Dudemaine</SimpleData>
+		<SimpleData name="RueS">boulevard Henri-Bourrassa</SimpleData>
+		<SimpleData name="RueE">rue Marie-Lavallée</SimpleData>
+		<SimpleData name="RueO">boulevard de l'Acadie</SimpleData>
+		<SimpleData name="N_Jardinet">196</SimpleData>
+		<SimpleData name="SHAPE_Leng">317.21678838400</SimpleData>
+		<SimpleData name="SHAPE_Area">5832.48200001000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6825674048745,45.5372357541378 -73.6827917498178,45.5365680756977 -73.6837892627623,45.5369037343616 -73.6833998661569,45.537488444846 -73.6830121525478,45.5373708279857 -73.6829854153412,45.5374176623767 -73.682824699162,45.5373714880835 -73.6828588603276,45.5373238319922 -73.6825674048745,45.5372357541378</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">60</SimpleData>
+		<SimpleData name="Text_">SAULT-AU-RÉCOLLET</SimpleData>
+		<SimpleData name="Index">0798-452</SimpleData>
+		<SimpleData name="NomArrond">Ahuntsic-Cartierville</SimpleData>
+		<SimpleData name="RueN">île-de-la-Visitation</SimpleData>
+		<SimpleData name="RueS">boulevard Gouin</SimpleData>
+		<SimpleData name="RueE">rue Saint-François-d'Assise</SimpleData>
+		<SimpleData name="RueO">rue du Pressoir</SimpleData>
+		<SimpleData name="N_Jardinet">50</SimpleData>
+		<SimpleData name="SHAPE_Leng">174.18140908700</SimpleData>
+		<SimpleData name="SHAPE_Area">1782.16957608000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6594152950657,45.5764457410704 -73.659689138906,45.5760026414959 -73.6601038149814,45.5761504517349 -73.6597509777538,45.5765729891571 -73.6594152950657,45.5764457410704</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">61</SimpleData>
+		<SimpleData name="Text_">LES ARPENTS VERTS</SimpleData>
+		<SimpleData name="Index">0798-044</SimpleData>
+		<SimpleData name="NomArrond">Rivière-des-PrairiesPointe-aux-Trembles</SimpleData>
+		<SimpleData name="RueN">rue De La Gauchetière</SimpleData>
+		<SimpleData name="RueS">rue Parent</SimpleData>
+		<SimpleData name="RueE">rue de Lorraine</SimpleData>
+		<SimpleData name="RueO">18e avenue</SimpleData>
+		<SimpleData name="N_Jardinet">85</SimpleData>
+		<SimpleData name="SHAPE_Leng">274.45919719900</SimpleData>
+		<SimpleData name="SHAPE_Area">3768.58875003000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5502484079931,45.6616902558096 -73.5498156942715,45.6618384653572 -73.5492941549697,45.661085453956 -73.5497277625429,45.6609372459751 -73.5498930002112,45.6611759856388 -73.5499692022701,45.661149947594 -73.5502021564207,45.661486197432 -73.5501246713962,45.6615129560478 -73.5502484079931,45.6616902558096</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">62</SimpleData>
+		<SimpleData name="Text_">CABRINI</SimpleData>
+		<SimpleData name="Index">0798-001</SimpleData>
+		<SimpleData name="NomArrond">MercierHochelaga-Maisonneuve</SimpleData>
+		<SimpleData name="RueN">rue Lina-Asnier</SimpleData>
+		<SimpleData name="RueS">rue Beaubien</SimpleData>
+		<SimpleData name="RueE">place Beaubien</SimpleData>
+		<SimpleData name="RueO">rue Cabrini</SimpleData>
+		<SimpleData name="N_Jardinet">127</SimpleData>
+		<SimpleData name="SHAPE_Leng">271.31988569000</SimpleData>
+		<SimpleData name="SHAPE_Area">3869.04459999000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5658937358539,45.5823448022773 -73.5665033063395,45.5816783044932 -73.5670191151663,45.5819180778501 -73.5665585067751,45.5824123540977 -73.566533155833,45.582430905373 -73.566346603705,45.5823459798894 -73.5662081232118,45.5824931825147 -73.5658937358539,45.5823448022773</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">63</SimpleData>
+		<SimpleData name="Text_">ROSEMONT</SimpleData>
+		<SimpleData name="Index">0798-049</SimpleData>
+		<SimpleData name="NomArrond">Rosemont La Petite-Patrie</SimpleData>
+		<SimpleData name="RueN">boulevard Rosemont</SimpleData>
+		<SimpleData name="RueS">rue Sherbrooke</SimpleData>
+		<SimpleData name="RueE">rue Viau</SimpleData>
+		<SimpleData name="RueO">boulevard Pie-IX</SimpleData>
+		<SimpleData name="N_Jardinet">171</SimpleData>
+		<SimpleData name="SHAPE_Leng">438.28212401200</SimpleData>
+		<SimpleData name="SHAPE_Area">10409.83110740000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5687827594959,45.5644901658195 -73.5699836481839,45.5648259754978 -73.5698702652479,45.5649524461665 -73.5697575201299,45.5649008505807 -73.5696626026358,45.5650085285577 -73.5697084591678,45.5650283812751 -73.5696625329662,45.5650801004915 -73.5697323711291,45.5651093868212 -73.5696358165511,45.5652208535066 -73.5696171033266,45.5652130363633 -73.5693865778524,45.565473496949 -73.5691811213555,45.5657046115368 -73.5689328785923,45.5656227839917 -73.5688829230189,45.5656312725566 -73.5685887952513,45.565531929393 -73.5681670232502,45.565389109784 -73.5684824986186,45.5649260468953 -73.5687827594959,45.5644901658195</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">64</SimpleData>
+		<SimpleData name="Text_">L'ÉGLANTIER</SimpleData>
+		<SimpleData name="Index">0798-085</SimpleData>
+		<SimpleData name="NomArrond">Rosemont La Petite-Patrie</SimpleData>
+		<SimpleData name="RueN">boulevard Rosemont</SimpleData>
+		<SimpleData name="RueS">rue Sherbrooke</SimpleData>
+		<SimpleData name="RueE">rue Viau</SimpleData>
+		<SimpleData name="RueO">boulevard Pie-IX</SimpleData>
+		<SimpleData name="N_Jardinet">85</SimpleData>
+		<SimpleData name="SHAPE_Leng">290.36499213900</SimpleData>
+		<SimpleData name="SHAPE_Area">4119.65450006000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5681996345888,45.5653412163826 -73.5681670252484,45.5653891069709 -73.568588799253,45.5655319279846 -73.5688829270223,45.5656312725541 -73.5686664229064,45.56594481477 -73.5675454081737,45.5655680031087 -73.5677144303901,45.5651818746126 -73.5681996345888,45.5653412163826</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">65</SimpleData>
+		<SimpleData name="Text_">LAURIER</SimpleData>
+		<SimpleData name="Index">0798-698</SimpleData>
+		<SimpleData name="NomArrond">Rosemont La Petite-Patrie</SimpleData>
+		<SimpleData name="RueN">avenue Laurier</SimpleData>
+		<SimpleData name="RueS">boulevard saint-Joseph</SimpleData>
+		<SimpleData name="RueE">13e avenue</SimpleData>
+		<SimpleData name="RueO">12e avenue</SimpleData>
+		<SimpleData name="N_Jardinet">42</SimpleData>
+		<SimpleData name="SHAPE_Leng">170.04319690100</SimpleData>
+		<SimpleData name="SHAPE_Area">1489.21326914000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5689941922945,45.5508081125403 -73.5691288818035,45.5505794152508 -73.5697579511083,45.5507645789206 -73.5696187954351,45.5509951552609 -73.5693761931656,45.5509239922995 -73.5693594361602,45.5509554714082 -73.5692877475488,45.5509350605277 -73.5693112166689,45.5508988574388 -73.5689941922945,45.5508081125403</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">66</SimpleData>
+		<SimpleData name="Text_">SAINT-ANDRÉ</SimpleData>
+		<SimpleData name="Index">0798-038</SimpleData>
+		<SimpleData name="NomArrond">Ville-Marie</SimpleData>
+		<SimpleData name="RueN">rue Sherbrooke</SimpleData>
+		<SimpleData name="RueS">rue Ontario</SimpleData>
+		<SimpleData name="RueE">rue Labrecque</SimpleData>
+		<SimpleData name="RueO">rue saint-andré</SimpleData>
+		<SimpleData name="N_Jardinet">28</SimpleData>
+		<SimpleData name="SHAPE_Leng">139.64909816800</SimpleData>
+		<SimpleData name="SHAPE_Area">852.36675002200</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5644797766141,45.5198448396047 -73.5638806730126,45.519577383702 -73.5640033991269,45.5194390995156 -73.5644712366677,45.519652458549 -73.5644342958434,45.5196981013004 -73.5644797766141,45.5198448396047</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">67</SimpleData>
+		<SimpleData name="Text_">CABRINI (ANNEXE)</SimpleData>
+		<SimpleData name="Index">0798-054</SimpleData>
+		<SimpleData name="NomArrond">MercierHochelaga-Maisonneuve</SimpleData>
+		<SimpleData name="RueN">rue Beaubien</SimpleData>
+		<SimpleData name="RueS">boulevard Rosemont</SimpleData>
+		<SimpleData name="RueE">rue Bossuet</SimpleData>
+		<SimpleData name="RueO">rue Lacordaire</SimpleData>
+		<SimpleData name="N_Jardinet">12</SimpleData>
+		<SimpleData name="SHAPE_Leng">77.54975228690</SimpleData>
+		<SimpleData name="SHAPE_Area">368.05090000900</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5617397073336,45.5799503338454 -73.5614814099645,45.5798632795382 -73.561576606347,45.5797354522784 -73.561835272979,45.5798090986922 -73.5617397073336,45.5799503338454</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">68</SimpleData>
+		<SimpleData name="Text_">DESCHAMPS</SimpleData>
+		<SimpleData name="Index">0798-014</SimpleData>
+		<SimpleData name="NomArrond">Ahuntsic-Cartierville</SimpleData>
+		<SimpleData name="RueN">boulevard Gouin</SimpleData>
+		<SimpleData name="RueS">rue de Salaberry</SimpleData>
+		<SimpleData name="RueE">rue Deschamps</SimpleData>
+		<SimpleData name="RueO">rue Letellier</SimpleData>
+		<SimpleData name="N_Jardinet">64</SimpleData>
+		<SimpleData name="SHAPE_Leng">270.41354756300</SimpleData>
+		<SimpleData name="SHAPE_Area">2116.20621361000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6945532810503,45.5442961596188 -73.6940648441423,45.5441410487531 -73.6942033566582,45.5439419972683 -73.6942050139433,45.543939245731 -73.6944439471249,45.5440606687247 -73.6946415497731,45.5441581542863 -73.6946401347602,45.544160368327 -73.6946437407335,45.5441621998179 -73.694558002759,45.5442913824432 -73.6945566205877,45.5442909376909 -73.6945532810503,45.5442961596188</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6947135650845,45.5444312219465 -73.6948931514971,45.5441483670088 -73.6953475616798,45.5443868573931 -73.6951959711368,45.5445810313005 -73.6947135650845,45.5444312219465</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">69</SimpleData>
+		<SimpleData name="Text_">ARTHUR-PÉLOQUIN</SimpleData>
+		<SimpleData name="Index">0798-056</SimpleData>
+		<SimpleData name="NomArrond">Saint-Léonard</SimpleData>
+		<SimpleData name="RueN">rue d'Artagnan</SimpleData>
+		<SimpleData name="RueS">rue Jean-Rivard</SimpleData>
+		<SimpleData name="RueE">rue Lévrard</SimpleData>
+		<SimpleData name="RueO">8115 rue Arthur-Péloquin</SimpleData>
+		<SimpleData name="N_Jardinet">68</SimpleData>
+		<SimpleData name="SHAPE_Leng">211.49005409000</SimpleData>
+		<SimpleData name="SHAPE_Area">1165.32317581000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6000137146962,45.5799257003591 -73.600135592814,45.5797966689135 -73.6002960456511,45.5798741554423 -73.6001790260729,45.5799992586906 -73.6000982706978,45.5799671492774 -73.6000729200667,45.5799463544624 -73.6000137146962,45.5799257003591</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6003816903233,45.5800219814833 -73.6004567913499,45.5799348568291 -73.6010425395543,45.5802182762456 -73.600913611375,45.5803554288205 -73.6004973486133,45.5801587131372 -73.6005435374205,45.5801004506263 -73.6003816903233,45.5800219814833</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">70</SimpleData>
+		<SimpleData name="Text_">COUTURE</SimpleData>
+		<SimpleData name="Index">0798-057</SimpleData>
+		<SimpleData name="NomArrond">Saint-Léonard</SimpleData>
+		<SimpleData name="RueN">boulevard des Grandes-Prairies</SimpleData>
+		<SimpleData name="RueS">4855 boulevard Couture</SimpleData>
+		<SimpleData name="RueE">boulevard Viau</SimpleData>
+		<SimpleData name="RueO">rue Pierre-Élliott-Trudeau</SimpleData>
+		<SimpleData name="N_Jardinet">34</SimpleData>
+		<SimpleData name="SHAPE_Leng">182.88969444400</SimpleData>
+		<SimpleData name="SHAPE_Area">1381.34791363000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6166035805179,45.5876319157642 -73.6159187612077,45.5873288091121 -73.6160243092818,45.5872096615188 -73.6160164718163,45.5872048567953 -73.616094270361,45.5871152236093 -73.6163727635365,45.5872359884435 -73.6163302865811,45.5872829986005 -73.6165420944878,45.5873772184414 -73.6164954076256,45.5874286913283 -73.6167017633793,45.5875218085153 -73.6166035805179,45.5876319157642</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">71</SimpleData>
+		<SimpleData name="Text_">LES JARDINS ALICE-PATTERSON</SimpleData>
+		<SimpleData name="Index">0798-058</SimpleData>
+		<SimpleData name="NomArrond">Verdun</SimpleData>
+		<SimpleData name="RueN">fleuve Saint-Laurent</SimpleData>
+		<SimpleData name="RueS">boulevard de la Forêt</SimpleData>
+		<SimpleData name="RueE">chemin du Club-Marin</SimpleData>
+		<SimpleData name="RueO">boulevard de la Forêt</SimpleData>
+		<SimpleData name="N_Jardinet">200</SimpleData>
+		<SimpleData name="SHAPE_Leng">314.39705805700</SimpleData>
+		<SimpleData name="SHAPE_Area">5249.95715348000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5579224727422,45.4570050238127 -73.5578490534923,45.4569592516072 -73.5577629253092,45.4569165593329 -73.5576785752877,45.4568757909315 -73.557563204366,45.4568519595088 -73.557448524382,45.4568414988357 -73.5573387761122,45.4568616262655 -73.5572213857806,45.4569071500699 -73.5571544351618,45.4569651691002 -73.5567879026012,45.4567579476542 -73.5568598511547,45.4565580438469 -73.5569847535757,45.4564953956042 -73.5571237422211,45.4564564090583 -73.5572743524313,45.4564257879374 -73.5574491597646,45.4564087253197 -73.5576118135048,45.4564163863308 -73.5577372941752,45.4564301159938 -73.5579040596332,45.4564632669912 -73.5580270956454,45.4565164349246 -73.5581320888246,45.4565669137636 -73.5582313500712,45.4566364399175 -73.5582461281175,45.4566734710678 -73.5583194139998,45.4567275160877 -73.558157205894,45.4568045064678 -73.5582326922772,45.4568903910635 -73.5579224727422,45.4570050238127</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">72</SimpleData>
+		<SimpleData name="Text_">ROI-RENÉ</SimpleData>
+		<SimpleData name="Index">0798-059</SimpleData>
+		<SimpleData name="NomArrond">Anjou</SimpleData>
+		<SimpleData name="RueN">boulevard Métropolitain</SimpleData>
+		<SimpleData name="RueS">avenue du Chardonnet</SimpleData>
+		<SimpleData name="RueE">boulevard Roi-René</SimpleData>
+		<SimpleData name="RueO">avenue Pigeon</SimpleData>
+		<SimpleData name="N_Jardinet">67</SimpleData>
+		<SimpleData name="SHAPE_Leng">223.56728488000</SimpleData>
+		<SimpleData name="SHAPE_Area">2609.33163983000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5576929401465,45.6129002585163 -73.5574670584479,45.6131506799554 -73.5566127931371,45.6127802644362 -73.5568368113925,45.6125232571857 -73.5576929401465,45.6129002585163</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">73</SimpleData>
+		<SimpleData name="Text_">LUCIE-BRUNEAU</SimpleData>
+		<SimpleData name="Index">0798-060</SimpleData>
+		<SimpleData name="NomArrond">Anjou</SimpleData>
+		<SimpleData name="RueN">avenue Marie-Lajoie</SimpleData>
+		<SimpleData name="RueS">avenue Giraud</SimpleData>
+		<SimpleData name="RueE">boulevard des Galeries-D'Anjou</SimpleData>
+		<SimpleData name="RueO">rue du Champ-d'Eau</SimpleData>
+		<SimpleData name="N_Jardinet">78</SimpleData>
+		<SimpleData name="SHAPE_Leng">214.24118895900</SimpleData>
+		<SimpleData name="SHAPE_Area">2086.62471782000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5829635504629,45.6033165055954 -73.5827543237982,45.6032258015164 -73.5828621766069,45.6030926937277 -73.5827642222304,45.6030442991978 -73.5831444872435,45.602597777645 -73.5834134042032,45.6027037907544 -73.583426445156,45.6026871878543 -73.5834938751747,45.6027149291951 -73.5829635504629,45.6033165055954</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">74</SimpleData>
+		<SimpleData name="Text_">LES POUCES VERTS DE VERDUN</SimpleData>
+		<SimpleData name="Index">0798-061</SimpleData>
+		<SimpleData name="NomArrond">Verdun</SimpleData>
+		<SimpleData name="RueN">boulevard LaSalle</SimpleData>
+		<SimpleData name="RueS">fleuve Saint-Laurent</SimpleData>
+		<SimpleData name="RueE">avenue Desmarchais</SimpleData>
+		<SimpleData name="RueO">rue Osborne</SimpleData>
+		<SimpleData name="N_Jardinet">75</SimpleData>
+		<SimpleData name="SHAPE_Leng">371.16893041200</SimpleData>
+		<SimpleData name="SHAPE_Area">4174.21216135000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5657748209944,45.4516518301482 -73.5659757936824,45.4513328224504 -73.566808104873,45.451594351453 -73.5666142198151,45.4519101212215 -73.5657748209944,45.4516518301482</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5650308657598,45.4528422458848 -73.5652077843058,45.4525626288093 -73.5656708129288,45.4527081155069 -73.5654737248718,45.4530182483964 -73.5650308657598,45.4528422458848</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">75</SimpleData>
+		<SimpleData name="Text_">JARDINS DE L'HÔPITAL DOUGLAS</SimpleData>
+		<SimpleData name="Index">0798-062</SimpleData>
+		<SimpleData name="NomArrond">Verdun</SimpleData>
+		<SimpleData name="RueN">Hôpital Douglas</SimpleData>
+		<SimpleData name="RueS">boulevard LaSalle</SimpleData>
+		<SimpleData name="RueE">rue Stephens</SimpleData>
+		<SimpleData name="RueO">rue Leclerc</SimpleData>
+		<SimpleData name="N_Jardinet">180</SimpleData>
+		<SimpleData name="SHAPE_Leng">364.60839797800</SimpleData>
+		<SimpleData name="SHAPE_Area">7141.86408976000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5800069541524,45.4403844390348 -73.5804063324224,45.4399476371056 -73.5806715075117,45.4399718980166 -73.5808432216759,45.4399761535566 -73.5810277101655,45.4399594767889 -73.5810330057827,45.4399922347122 -73.5818032051211,45.4400919026394 -73.5816272913756,45.4406451723143 -73.5800069541524,45.4403844390348</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">76</SimpleData>
+		<SimpleData name="Text_">MONTRÉAL-NORD</SimpleData>
+		<SimpleData name="Index">0798-063</SimpleData>
+		<SimpleData name="NomArrond">Montréal-Nord</SimpleData>
+		<SimpleData name="RueN">boulevard Gouin</SimpleData>
+		<SimpleData name="RueS">boulevard Henri-Bourrassa</SimpleData>
+		<SimpleData name="RueE">avenue Saint-Julien</SimpleData>
+		<SimpleData name="RueO">Pont Pie-IX</SimpleData>
+		<SimpleData name="N_Jardinet">131</SimpleData>
+		<SimpleData name="SHAPE_Leng">329.66693608900</SimpleData>
+		<SimpleData name="SHAPE_Area">3736.26356713000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6439121353477,45.5977548941701 -73.6432307910544,45.5971109336071 -73.6430126304731,45.5972175272483 -73.642743344485,45.5969517075138 -73.6429443028466,45.5968507401506 -73.6429727451666,45.5968399712943 -73.6430631517745,45.5968165863049 -73.643155607041,45.5968057569046 -73.6432321268934,45.596815713759 -73.6433171444784,45.5968555159216 -73.6434019624556,45.5969089014595 -73.6434911787831,45.5969670223793 -73.6441656799378,45.5976208600312 -73.6439121353477,45.5977548941701</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">77</SimpleData>
+		<SimpleData name="Text_">NOËL-NORD</SimpleData>
+		<SimpleData name="Index">0798-064</SimpleData>
+		<SimpleData name="NomArrond">Saint-Laurent</SimpleData>
+		<SimpleData name="RueN">rue Baker</SimpleData>
+		<SimpleData name="RueS">voie ferrée</SimpleData>
+		<SimpleData name="RueE">boulevard Toupin</SimpleData>
+		<SimpleData name="RueO">avenue du Beau-Bois</SimpleData>
+		<SimpleData name="N_Jardinet">25</SimpleData>
+		<SimpleData name="SHAPE_Leng">135.85893467900</SimpleData>
+		<SimpleData name="SHAPE_Area">1061.40212327000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.7270554646526,45.5173208213428 -73.7268420805054,45.51702724195 -73.7271630443294,45.5169051466898 -73.7272678665698,45.5170508937964 -73.7272922571497,45.517042223667 -73.7273177462698,45.5170774059374 -73.727287090087,45.5170851521421 -73.7273758418145,45.5172116674941 -73.7270554646526,45.5173208213428</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">78</SimpleData>
+		<SimpleData name="Text_">HARTENSTEIN</SimpleData>
+		<SimpleData name="Index">0798-065</SimpleData>
+		<SimpleData name="NomArrond">Saint-Laurent</SimpleData>
+		<SimpleData name="RueN">rue Poirier</SimpleData>
+		<SimpleData name="RueS">rue Tassé</SimpleData>
+		<SimpleData name="RueE">rue Décarie</SimpleData>
+		<SimpleData name="RueO">rue Millar</SimpleData>
+		<SimpleData name="N_Jardinet">23</SimpleData>
+		<SimpleData name="SHAPE_Leng">102.93188033000</SimpleData>
+		<SimpleData name="SHAPE_Area">555.55646978300</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.692161307738,45.5197146302747 -73.6918278855784,45.5195076073129 -73.69213246415,45.5193764863946 -73.6922206423915,45.5196750133896 -73.692161307738,45.5197146302747</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">79</SimpleData>
+		<SimpleData name="Text_">ALEXIS-NIHON</SimpleData>
+		<SimpleData name="Index">0798-066</SimpleData>
+		<SimpleData name="NomArrond">Saint-Laurent</SimpleData>
+		<SimpleData name="RueN">rue Nantel</SimpleData>
+		<SimpleData name="RueS">rue Badeaux</SimpleData>
+		<SimpleData name="RueE">rue Bertrand</SimpleData>
+		<SimpleData name="RueO">carré Stuart</SimpleData>
+		<SimpleData name="N_Jardinet">28</SimpleData>
+		<SimpleData name="SHAPE_Leng">131.99968906500</SimpleData>
+		<SimpleData name="SHAPE_Area">1083.56862685000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6912953041238,45.49719424986 -73.6908666338417,45.497291278358 -73.6907367319286,45.4970324625773 -73.6911657920738,45.4969312243267 -73.6912953041238,45.49719424986</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">80</SimpleData>
+		<SimpleData name="Text_">SUPER JARDIN</SimpleData>
+		<SimpleData name="Index">0798-067</SimpleData>
+		<SimpleData name="NomArrond">Saint-Laurent</SimpleData>
+		<SimpleData name="RueN">boulevard de la Côte-Vertu</SimpleData>
+		<SimpleData name="RueS">voie ferrée</SimpleData>
+		<SimpleData name="RueE">boulevard Montpellier</SimpleData>
+		<SimpleData name="RueO">avenue Sainte-Croix</SimpleData>
+		<SimpleData name="N_Jardinet">40</SimpleData>
+		<SimpleData name="SHAPE_Leng">141.12750288500</SimpleData>
+		<SimpleData name="SHAPE_Area">1118.11320936000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6697739839556,45.5166140884101 -73.6694064162586,45.5165313383602 -73.6695983317823,45.5162321910899 -73.6698859284369,45.5162929726092 -73.6699080195398,45.5162577067601 -73.6699818824638,45.5162807973045 -73.6697739839556,45.5166140884101</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">81</SimpleData>
+		<SimpleData name="Text_">SAINT-LAURENT</SimpleData>
+		<SimpleData name="Index">0798-068</SimpleData>
+		<SimpleData name="NomArrond">Saint-Laurent</SimpleData>
+		<SimpleData name="RueN">croissant du Ruisseau</SimpleData>
+		<SimpleData name="RueS">rue Poirier</SimpleData>
+		<SimpleData name="RueE">boulevard Henri-Bourrassa</SimpleData>
+		<SimpleData name="RueO">rue Dutrisac</SimpleData>
+		<SimpleData name="N_Jardinet">42</SimpleData>
+		<SimpleData name="SHAPE_Leng">125.66559638600</SimpleData>
+		<SimpleData name="SHAPE_Area">783.10415649300</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6890571261814,45.5270584316678 -73.688891999656,45.5269524267825 -73.689279726593,45.5266396321255 -73.6894312163628,45.5267484640386 -73.6890571261814,45.5270584316678</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">82</SimpleData>
+		<SimpleData name="Text_">JARDIN CARDINAL</SimpleData>
+		<SimpleData name="Index">0798-069</SimpleData>
+		<SimpleData name="NomArrond">Saint-Laurent</SimpleData>
+		<SimpleData name="RueN">rue Deguire</SimpleData>
+		<SimpleData name="RueS">rue Tassé</SimpleData>
+		<SimpleData name="RueE">rue Cardinal</SimpleData>
+		<SimpleData name="RueO">rue Crevier</SimpleData>
+		<SimpleData name="N_Jardinet">32</SimpleData>
+		<SimpleData name="SHAPE_Leng">166.71295526300</SimpleData>
+		<SimpleData name="SHAPE_Area">1645.18515204000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6911371188242,45.51655006216 -73.6906443652218,45.5162413796579 -73.6909231650641,45.5160289831793 -73.6914097669025,45.5163342329066 -73.6911371188242,45.51655006216</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">83</SimpleData>
+		<SimpleData name="Text_">PIERRE-ÉLLIOTT-TRUDEAU</SimpleData>
+		<SimpleData name="Index">0798-070</SimpleData>
+		<SimpleData name="NomArrond">Outremont</SimpleData>
+		<SimpleData name="RueN">voie ferrée</SimpleData>
+		<SimpleData name="RueS">avenue Ducharme</SimpleData>
+		<SimpleData name="RueE">avenue Wiseman</SimpleData>
+		<SimpleData name="RueO">999 avenue McEachran</SimpleData>
+		<SimpleData name="N_Jardinet">58</SimpleData>
+		<SimpleData name="SHAPE_Leng">169.95830492400</SimpleData>
+		<SimpleData name="SHAPE_Area">1291.83045978000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6195023772703,45.5208938641335 -73.6195820914194,45.5208053067344 -73.6204165192338,45.5209600027161 -73.6201568249129,45.5211724388109 -73.6195023772703,45.5208938641335</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">84</SimpleData>
+		<SimpleData name="Text_">DES RAPIDES</SimpleData>
+		<SimpleData name="Index">0798-071</SimpleData>
+		<SimpleData name="NomArrond">LaSalle</SimpleData>
+		<SimpleData name="RueN">canal de l'Aqueduc</SimpleData>
+		<SimpleData name="RueS">69e avenue</SimpleData>
+		<SimpleData name="RueE">rue Beyries</SimpleData>
+		<SimpleData name="RueO">boulevard LaSalle</SimpleData>
+		<SimpleData name="N_Jardinet">143</SimpleData>
+		<SimpleData name="SHAPE_Leng">820.61615258900</SimpleData>
+		<SimpleData name="SHAPE_Area">17667.93741050000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6293451109262,45.4184871288303 -73.6294236619749,45.4183559251457 -73.6291461938845,45.4182663266655 -73.6292013873253,45.4180164387787 -73.6295816447755,45.4172710041222 -73.6293857099941,45.4166796478011 -73.6291082922177,45.4165024916787 -73.6291749894571,45.4159847047578 -73.6301428064465,45.4160961782509 -73.6301842712242,45.4159249023062 -73.630756062202,45.4159821662252 -73.6302694972154,45.4170390288604 -73.6298686511044,45.4170555421281 -73.6299145570886,45.4172628365808 -73.6301910808119,45.417246294792 -73.6295566443808,45.4185346742871 -73.6294578901522,45.4185038775921 -73.6293451109262,45.4184871288303</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">85</SimpleData>
+		<SimpleData name="Text_">CHARLES-NAGUY</SimpleData>
+		<SimpleData name="Index">0798-072</SimpleData>
+		<SimpleData name="NomArrond">LaSalle</SimpleData>
+		<SimpleData name="RueN">rue Maria</SimpleData>
+		<SimpleData name="RueS">rue Stinson</SimpleData>
+		<SimpleData name="RueE">rue Wanklyn</SimpleData>
+		<SimpleData name="RueO">rue Airlle</SimpleData>
+		<SimpleData name="N_Jardinet">213</SimpleData>
+		<SimpleData name="SHAPE_Leng">792.94930634000</SimpleData>
+		<SimpleData name="SHAPE_Area">16964.70022430000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6528095511939,45.4285648220333 -73.6539078731798,45.4261501189781 -73.6543060497808,45.426224737966 -73.6539682889025,45.4270286477047 -73.6549810344225,45.4272535958648 -73.6548005576164,45.4276351316673 -73.6543720328285,45.4275435509924 -73.6540953927466,45.4282318538045 -73.6534174658082,45.4281157584982 -73.6531774054988,45.428622479635 -73.6528095511939,45.4285648220333</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">86</SimpleData>
+		<SimpleData name="Text_">LANTHIER/SAINTE-ANNE</SimpleData>
+		<SimpleData name="Index">0798-073</SimpleData>
+		<SimpleData name="NomArrond">Pointe-Claire</SimpleData>
+		<SimpleData name="RueN">avenue Lanthier</SimpleData>
+		<SimpleData name="RueS">chemin du Bord-du-Lac-Lakeshore</SimpleData>
+		<SimpleData name="RueE">avenue Lourdes</SimpleData>
+		<SimpleData name="RueO">avenue Sainte-Anne</SimpleData>
+		<SimpleData name="N_Jardinet">16</SimpleData>
+		<SimpleData name="Banlieu">1</SimpleData>
+		<SimpleData name="SHAPE_Leng">112.98748639600</SimpleData>
+		<SimpleData name="SHAPE_Area">627.05837494700</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.8260012420476,45.4304019613677 -73.8258596472671,45.4300415939477 -73.826046043249,45.4300049947392 -73.826186915041,45.4303609926696 -73.8260012420476,45.4304019613677</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">87</SimpleData>
+		<SimpleData name="Text_">VALOIS</SimpleData>
+		<SimpleData name="Index">0798-074</SimpleData>
+		<SimpleData name="NomArrond">Pointe-Claire</SimpleData>
+		<SimpleData name="RueN">avenue Belmont</SimpleData>
+		<SimpleData name="RueS">avenue Donegani</SimpleData>
+		<SimpleData name="RueE">avenue de la Baie-de-Valois</SimpleData>
+		<SimpleData name="RueO">avenue Broadview</SimpleData>
+		<SimpleData name="N_Jardinet">32</SimpleData>
+		<SimpleData name="Banlieu">1</SimpleData>
+		<SimpleData name="SHAPE_Leng">170.65022128800</SimpleData>
+		<SimpleData name="SHAPE_Area">1214.65704920000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.7939342142072,45.4504376525477 -73.793710989629,45.4498490826813 -73.7939317928336,45.4498118780977 -73.7941596867795,45.4503913835679 -73.7939342142072,45.4504376525477</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">88</SimpleData>
+		<SimpleData name="Text_">KILDARE/KELLERT</SimpleData>
+		<SimpleData name="Index">0798-075</SimpleData>
+		<SimpleData name="NomArrond">Côte-Saint-Luc</SimpleData>
+		<SimpleData name="RueN">rue Norwalk</SimpleData>
+		<SimpleData name="RueS">chemin Kildare</SimpleData>
+		<SimpleData name="RueE">avenue Kellert</SimpleData>
+		<SimpleData name="RueO">avenue Shalom</SimpleData>
+		<SimpleData name="N_Jardinet">50</SimpleData>
+		<SimpleData name="Banlieu">1</SimpleData>
+		<SimpleData name="SHAPE_Leng">235.85364275000</SimpleData>
+		<SimpleData name="SHAPE_Area">2832.48592941000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6639415699154,45.4732052448974 -73.6641857125653,45.4732882960711 -73.6642297338047,45.4732333491036 -73.6646071329927,45.473378181915 -73.6645153839644,45.4735004698319 -73.6643924438094,45.4734580066986 -73.6640985412785,45.4738334267743 -73.6635990101339,45.4736511002145 -73.6639415699154,45.4732052448974</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">89</SimpleData>
+		<SimpleData name="Text_">THORNCREST/LYAL</SimpleData>
+		<SimpleData name="Index">0798-076</SimpleData>
+		<SimpleData name="NomArrond">Dorval</SimpleData>
+		<SimpleData name="RueN">place Lyal</SimpleData>
+		<SimpleData name="RueS">rue Utilités publiques</SimpleData>
+		<SimpleData name="RueE">avenue Thorncrest</SimpleData>
+		<SimpleData name="RueO">boulevard Pine beach</SimpleData>
+		<SimpleData name="N_Jardinet">40</SimpleData>
+		<SimpleData name="Banlieu">1</SimpleData>
+		<SimpleData name="SHAPE_Leng">207.56764024200</SimpleData>
+		<SimpleData name="SHAPE_Area">2131.70219224000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.7644964395524,45.4567793026109 -73.7654324729957,45.4566068233952 -73.7655299122179,45.4568595758359 -73.7645912471312,45.457016119119 -73.7644964395524,45.4567793026109</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">90</SimpleData>
+		<SimpleData name="Text_">BRITTANY/AINSLEY</SimpleData>
+		<SimpleData name="Index">0798-077</SimpleData>
+		<SimpleData name="NomArrond">Mont-Royal</SimpleData>
+		<SimpleData name="RueN">chemin de la Côte-de-Liesse</SimpleData>
+		<SimpleData name="RueS">avenue Brittany</SimpleData>
+		<SimpleData name="RueE">chemin Rockland</SimpleData>
+		<SimpleData name="RueO">boulevard Laird</SimpleData>
+		<SimpleData name="N_Jardinet">48</SimpleData>
+		<SimpleData name="Banlieu">1</SimpleData>
+		<SimpleData name="SHAPE_Leng">285.53969375800</SimpleData>
+		<SimpleData name="SHAPE_Area">5044.11023164000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6506537623163,45.5264953146802 -73.6498980074957,45.526271499489 -73.6502691054079,45.525619817797 -73.6510338827913,45.5258356381781 -73.6506537623163,45.5264953146802</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">91</SimpleData>
+		<SimpleData name="Text_">HALLOWELL</SimpleData>
+		<SimpleData name="Index">0798-078</SimpleData>
+		<SimpleData name="NomArrond">Westmount</SimpleData>
+		<SimpleData name="RueN">boulevard Dorchester</SimpleData>
+		<SimpleData name="RueS">voie ferrée/autoroute 720</SimpleData>
+		<SimpleData name="RueE">rue Hallowell</SimpleData>
+		<SimpleData name="RueO">rue Hillside</SimpleData>
+		<SimpleData name="N_Jardinet">26</SimpleData>
+		<SimpleData name="Banlieu">1</SimpleData>
+		<SimpleData name="SHAPE_Leng">83.28806267930</SimpleData>
+		<SimpleData name="SHAPE_Area">346.71720942400</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5884228061639,45.4837114177173 -73.5884653018494,45.4836677886766 -73.5885139099654,45.4836689883099 -73.5885632637508,45.4836677155797 -73.5886232633675,45.4836615683701 -73.5886748135237,45.4836550241639 -73.5887412678147,45.4836416548345 -73.5887932315071,45.4836235458249 -73.5888480112098,45.4836510680475 -73.5886398223596,45.4838203361776 -73.5884228061639,45.4837114177173</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">92</SimpleData>
+		<SimpleData name="Text_">HILLSIDE</SimpleData>
+		<SimpleData name="Index">0798-079</SimpleData>
+		<SimpleData name="NomArrond">Westmount</SimpleData>
+		<SimpleData name="RueN">rue sainte-Catherine</SimpleData>
+		<SimpleData name="RueS">voie ferrée/autoroute 720</SimpleData>
+		<SimpleData name="RueE">rue Hallowell</SimpleData>
+		<SimpleData name="RueO">rue Hillside</SimpleData>
+		<SimpleData name="N_Jardinet">62</SimpleData>
+		<SimpleData name="Banlieu">1</SimpleData>
+		<SimpleData name="SHAPE_Leng">134.01132464900</SimpleData>
+		<SimpleData name="SHAPE_Area">828.82714756700</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5898605189821,45.482798678477 -73.5897885110912,45.4827589857986 -73.5898217654341,45.4827295782684 -73.5898262365423,45.4826867645667 -73.5898276636465,45.4826515499292 -73.5898255495611,45.4826179563936 -73.5898194030971,45.482580005992 -73.5898062199843,45.4825426179021 -73.5897814349614,45.4824981385801 -73.5897480684742,45.482459360335 -73.5897068620411,45.4824161958623 -73.5897885787352,45.4823397811054 -73.590170388509,45.4825318210915 -73.5898605189821,45.482798678477</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">93</SimpleData>
+		<SimpleData name="Text_">SAINTE-ANNE-DE-BELLEVUE</SimpleData>
+		<SimpleData name="Index">0798-080</SimpleData>
+		<SimpleData name="NomArrond">Sainte-Anne-de-Bellevue</SimpleData>
+		<SimpleData name="RueN">rue Grier</SimpleData>
+		<SimpleData name="RueS">rue Sainte-Anne</SimpleData>
+		<SimpleData name="RueE">rue du Pacifique</SimpleData>
+		<SimpleData name="RueO">rue saint-Charles</SimpleData>
+		<SimpleData name="N_Jardinet">24</SimpleData>
+		<SimpleData name="Banlieu">1</SimpleData>
+		<SimpleData name="SHAPE_Leng">83.02980574920</SimpleData>
+		<SimpleData name="SHAPE_Area">426.04324212100</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.9556207154727,45.4074978654564 -73.9554349789468,45.4073482778005 -73.9556663934827,45.4072537639345 -73.9558254841597,45.4074057831278 -73.9556207154727,45.4074978654564</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">94</SimpleData>
+		<SimpleData name="Text_">JARDIN RICHELIEU</SimpleData>
+		<SimpleData name="NomArrond">Rivière-des-PrairiesPointe-aux-Trembles</SimpleData>
+		<SimpleData name="RueN">rue Forsyth</SimpleData>
+		<SimpleData name="RueS">rue De Montigny</SimpleData>
+		<SimpleData name="RueE">42e avenue</SimpleData>
+		<SimpleData name="RueO">40e avenue</SimpleData>
+		<SimpleData name="N_Jardinet">44</SimpleData>
+		<SimpleData name="SHAPE_Leng">226.24323196000</SimpleData>
+		<SimpleData name="SHAPE_Area">1630.21218965000</SimpleData>
+		<SimpleData name="Nbacs">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5044056417117,45.6641159031254 -73.5041668194434,45.664083226213 -73.5043025403203,45.6636622541809 -73.5043341743324,45.663667807953 -73.5044624587334,45.6632581947742 -73.5046554032094,45.6632854543623 -73.5045623716832,45.6635542983226 -73.5045772570004,45.6635906686369 -73.5044056417117,45.6641159031254</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">95</SimpleData>
+		<SimpleData name="Text_">ANDRÉ-LAURENDEAU</SimpleData>
+		<SimpleData name="NomArrond">Anjou</SimpleData>
+		<SimpleData name="RueN">avenue André-Laurendeau</SimpleData>
+		<SimpleData name="RueS">boulevard Métropolitain</SimpleData>
+		<SimpleData name="RueE">boulevard Louis-H-La Fontaine</SimpleData>
+		<SimpleData name="RueO">boulevard du Haut-Anjou</SimpleData>
+		<SimpleData name="N_Jardinet">62</SimpleData>
+		<SimpleData name="SHAPE_Leng">305.55967931900</SimpleData>
+		<SimpleData name="SHAPE_Area">2857.66524164000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.570557175211,45.6039519157638 -73.570135595731,45.6037678612493 -73.5701797743184,45.6037161432688 -73.5696765683895,45.603498074493 -73.569653690214,45.603524294504 -73.5692661815126,45.6033558954773 -73.5694042652526,45.603158863402 -73.5695127230937,45.6032047575391 -73.570598489564,45.6036721185298 -73.5705481354631,45.6037297695035 -73.5706927558666,45.6037929716916 -73.570557175211,45.6039519157638</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">96</SimpleData>
+		<SimpleData name="Text_">SPALDING</SimpleData>
+		<SimpleData name="NomArrond">Anjou</SimpleData>
+		<SimpleData name="RueN">boulevard Wilfrid-Pelletier</SimpleData>
+		<SimpleData name="RueS">rue Spalding</SimpleData>
+		<SimpleData name="RueE">Place Spalding</SimpleData>
+		<SimpleData name="RueO">avenue Goncourt</SimpleData>
+		<SimpleData name="N_Jardinet">77</SimpleData>
+		<SimpleData name="SHAPE_Leng">207.59758069200</SimpleData>
+		<SimpleData name="SHAPE_Area">2552.28305855000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5531577545965,45.6033064976628 -73.5525167809409,45.6032300711995 -73.552611045605,45.602902904081 -73.5527106328609,45.6029198142941 -73.5527689533531,45.6027563210973 -73.5532754752513,45.6028421474519 -73.5531577545965,45.6033064976628</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">97</SimpleData>
+		<SimpleData name="Text_">DES ROSERAIES</SimpleData>
+		<SimpleData name="NomArrond">Anjou</SimpleData>
+		<SimpleData name="RueN">avenue des Jalesnes</SimpleData>
+		<SimpleData name="RueS">avenue du Bocage</SimpleData>
+		<SimpleData name="RueE">boulevard des Galeries D'Anjou</SimpleData>
+		<SimpleData name="RueO">Cimetière Repos St-François-d'Assise</SimpleData>
+		<SimpleData name="N_Jardinet">48</SimpleData>
+		<SimpleData name="SHAPE_Leng">167.50148085300</SimpleData>
+		<SimpleData name="SHAPE_Area">1374.52261547000</SimpleData>
+		<SimpleData name="Nbacs">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5543099759887,45.5926311862979 -73.5542390439385,45.5926077653958 -73.5541894869213,45.5926809098505 -73.5541324585042,45.5926630176398 -73.5540536720344,45.5925184988445 -73.5543296045072,45.5920901267177 -73.5546020353964,45.5921895882102 -73.5543099759887,45.5926311862979</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">98</SimpleData>
+		<SimpleData name="Text_">NOTRE-DAME</SimpleData>
+		<SimpleData name="NomArrond">Anjou</SimpleData>
+		<SimpleData name="RueN">place de l'Église</SimpleData>
+		<SimpleData name="RueS">avenue Chénier</SimpleData>
+		<SimpleData name="RueE">avenue de l'Aréna</SimpleData>
+		<SimpleData name="RueO">rue Louis-Dumouchel</SimpleData>
+		<SimpleData name="N_Jardinet">98</SimpleData>
+		<SimpleData name="SHAPE_Leng">295.87027606100</SimpleData>
+		<SimpleData name="SHAPE_Area">3665.04974671000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5429673948864,45.6022244150267 -73.5422382415971,45.6020003613914 -73.5426771963484,45.6012752663419 -73.5431260877389,45.6014095544862 -73.5431168824167,45.6014255678599 -73.5430771748245,45.6014268158844 -73.5430305411599,45.6014413502071 -73.5430050301428,45.6014631159543 -73.5429816261855,45.6014586115651 -73.5428121962087,45.6017350445295 -73.5428617907707,45.6017444699027 -73.5428662727934,45.6017778588479 -73.5428918796161,45.6018184806619 -73.5429291454129,45.601863905136 -73.5430078148747,45.6019410540228 -73.5429673948864,45.6022244150267</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">99</SimpleData>
+		<SimpleData name="Text_">GÉRARD-LEGAULT</SimpleData>
+		<SimpleData name="NomArrond">Ahuntsic-Cartierville</SimpleData>
+		<SimpleData name="RueN">rue Dudemaine</SimpleData>
+		<SimpleData name="RueS">vie ferrée</SimpleData>
+		<SimpleData name="RueE">avenue Robert-Giffard</SimpleData>
+		<SimpleData name="RueO">rue Grenet</SimpleData>
+		<SimpleData name="N_Jardinet">118</SimpleData>
+		<SimpleData name="SHAPE_Leng">347.95181028600</SimpleData>
+		<SimpleData name="SHAPE_Area">4406.44484627000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.7054183440193,45.5250421664929 -73.7050926542387,45.5248432994279 -73.7067814268291,45.524236477938 -73.7069569766722,45.5244861031705 -73.7054183440193,45.5250421664929</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">100</SimpleData>
+		<SimpleData name="Text_">JARDIN WILFRID-VINCENT</SimpleData>
+		<SimpleData name="NomArrond">Lachine</SimpleData>
+		<SimpleData name="RueN">rue Desrosiers</SimpleData>
+		<SimpleData name="RueS">rue des Érables</SimpleData>
+		<SimpleData name="RueE">avenue Windsor</SimpleData>
+		<SimpleData name="RueO">avenue Stanley</SimpleData>
+		<SimpleData name="N_Jardinet">30</SimpleData>
+		<SimpleData name="SHAPE_Leng">71.60669137520</SimpleData>
+		<SimpleData name="SHAPE_Area">238.90992817700</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6534832569085,45.4439664955099 -73.6534258115993,45.4440347140075 -73.6531236115565,45.4439198934139 -73.6531804716086,45.4438500968919 -73.6534832569085,45.4439664955099</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">101</SimpleData>
+		<SimpleData name="Text_">JARDIN SHERBROOKE</SimpleData>
+		<SimpleData name="NomArrond">Lachine</SimpleData>
+		<SimpleData name="RueN">rue Sherbrooke</SimpleData>
+		<SimpleData name="RueS">rue Provost</SimpleData>
+		<SimpleData name="RueE">4e avenue</SimpleData>
+		<SimpleData name="RueO">5e avenue</SimpleData>
+		<SimpleData name="N_Jardinet">30</SimpleData>
+		<SimpleData name="SHAPE_Leng">139.74084328400</SimpleData>
+		<SimpleData name="SHAPE_Area">953.55082559100</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6680914941274,45.4448943193374 -73.6678098699421,45.4448923459988 -73.6678068244034,45.4444626892713 -73.6680377294568,45.4444629023864 -73.6680399107141,45.4446916824143 -73.6680898064013,45.4446912293759 -73.6680914941274,45.4448943193374</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">102</SimpleData>
+		<SimpleData name="Text_">REMEMBRANCE</SimpleData>
+		<SimpleData name="NomArrond">Lachine</SimpleData>
+		<SimpleData name="RueN">rue Remembrance</SimpleData>
+		<SimpleData name="RueS">rue Victoria</SimpleData>
+		<SimpleData name="RueE">28e avenue</SimpleData>
+		<SimpleData name="RueO">32e avenue</SimpleData>
+		<SimpleData name="N_Jardinet">210</SimpleData>
+		<SimpleData name="SHAPE_Leng">394.33886218700</SimpleData>
+		<SimpleData name="SHAPE_Area">5068.50080541000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.6900350782506,45.437540956862 -73.6900280352001,45.4374769608777 -73.6900128304573,45.4374179079791 -73.6899157785142,45.4367568232653 -73.6894338262293,45.4367832525166 -73.6893677339939,45.4367087558082 -73.6892823784504,45.4367049533927 -73.6892611486995,45.4364240472431 -73.6904428154513,45.4367725930678 -73.6905491846851,45.4374913620814 -73.6900350782506,45.437540956862</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">104</SimpleData>
+		<SimpleData name="Text_">MONSABRÉ</SimpleData>
+		<SimpleData name="NomArrond">MercierHochelaga-Maisonneuve</SimpleData>
+		<SimpleData name="RueN">rue de Toulouse</SimpleData>
+		<SimpleData name="RueS">avenue Souligny</SimpleData>
+		<SimpleData name="RueE">rue Monsabré</SimpleData>
+		<SimpleData name="RueO">rue Dickson</SimpleData>
+		<SimpleData name="N_Jardinet">41</SimpleData>
+		<SimpleData name="SHAPE_Leng">311.05678595400</SimpleData>
+		<SimpleData name="SHAPE_Area">5244.41050331000</SimpleData>
+		<SimpleData name="Nbacs">41</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5358812598059,45.5693121230716 -73.5356173645714,45.5697041839456 -73.5355963128271,45.5697096541777 -73.5349728724235,45.5695002434146 -73.5349211740432,45.5694753296513 -73.5348481391131,45.5694387048687 -73.5345486195127,45.5691874683976 -73.5344979262709,45.5691490777387 -73.5344529193127,45.5691222931826 -73.5344204663205,45.5691063421852 -73.5345776485177,45.5688559964383 -73.5358785066838,45.5692891219669 -73.5358812598059,45.5693121230716</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">176</SimpleData>
+		<SimpleData name="Text_">LES JARDINS DE L'INSTITUT</SimpleData>
+		<SimpleData name="NomArrond">MercierHochelaga-Maisonneuve</SimpleData>
+		<SimpleData name="RueN">Rue Marseille</SimpleData>
+		<SimpleData name="RueO">rue du Trianon</SimpleData>
+		<SimpleData name="N_Jardinet">59</SimpleData>
+		<SimpleData name="SHAPE_Leng">261.28163458100</SimpleData>
+		<SimpleData name="SHAPE_Area">3619.67910084000</SimpleData>
+		<SimpleData name="Nbacs">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5327722956145,45.5894889992926 -73.5338467565206,45.5898324742327 -73.5336407701575,45.5901391828332 -73.5325771819569,45.5898433193099 -73.5327722956145,45.5894889992926</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jardins_communautaires_DO2014">
+		<SimpleData name="OBJECTID">178</SimpleData>
+		<SimpleData name="Text_">PRÉ-CARRÉ</SimpleData>
+		<SimpleData name="NomArrond">Rosemont La Petite-Patrie</SimpleData>
+		<SimpleData name="RueS">rue Sherbrooke Est</SimpleData>
+		<SimpleData name="RueE">boulevard de l'Assomption</SimpleData>
+		<SimpleData name="RueO">rue Viau</SimpleData>
+		<SimpleData name="N_Jardinet">141</SimpleData>
+		<SimpleData name="SHAPE_Leng">307.76209706100</SimpleData>
+		<SimpleData name="SHAPE_Area">4977.23622615000</SimpleData>
+		<SimpleData name="Nbacs">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-73.5555384378253,45.5687125895495 -73.5557947823194,45.5687967452094 -73.5557277792368,45.5689110566579 -73.5562282526976,45.5690636606382 -73.5563055696568,45.5690950492091 -73.556336108548,45.5691264608058 -73.5563524292057,45.5691764497035 -73.5563423114474,45.5692278801252 -73.5562874506549,45.5692807610846 -73.5562305188599,45.5692965024481 -73.5561695079636,45.5693008179156 -73.5561166125003,45.5692851305857 -73.5559236827748,45.5695723505083 -73.5550447775853,45.5692856520753 -73.5555384378253,45.5687125895495</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
