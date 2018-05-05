@@ -1,22 +1,44 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { AlertController } from 'ionic-angular';
+import {NavController, NavParams} from 'ionic-angular';
 
-/**
- * Generated class for the PromptComponent component.
- *
- * See https://angular.io/api/core/Component for more info on Angular
- * Components.
- */
+
 @Component({
   selector: 'prompt',
   templateUrl: 'prompt.html'
 })
 export class PromptComponent {
 
-  text: string;
+  @Input() text: string;
 
-  constructor() {
-    console.log('Hello PromptComponent Component');
-    this.text = 'Hello World';
+  constructor(public alertCtrl: AlertController) {}
+
+  doPrompt() {
+    let prompt = this.alertCtrl.create({
+      title: 'Login',
+      message: "Enter a name for this new album you're so keen on adding",
+      inputs: [
+        {
+          name: 'title',
+          placeholder: 'Title'
+        },
+      ],
+      buttons: [
+        {
+          text: 'Cancel',
+          handler: data => {
+            console.log('Cancel clicked');
+          }
+        },
+        {
+          text: 'Save',
+          handler: data => {
+            console.log('Saved clicked');
+          }
+        }
+      ]
+    });
+    prompt.present();
   }
 
 }
