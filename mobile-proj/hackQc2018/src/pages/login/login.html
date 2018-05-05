@@ -1,5 +1,16 @@
 <ion-content padding>
-  Login Page
+  <h2>appName</h2>
+  <img src="../../assets/imgs/logo.png" alt="">
 
-  <button [navPush]="homePage">ABDER</button>
+  <ion-item>
+    <ion-label fixed>Username</ion-label>
+    <ion-input #username type="text" value=""></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>Password</ion-label>
+    <ion-input #password type="password"></ion-input>
+  </ion-item>
+  <button ion-button [navPush]="homePage" [navParams]="{username: username.value}" [disabled]="!username.value || !password.value">Login</button>
+
 </ion-content>
