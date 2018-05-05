@@ -27,6 +27,7 @@ export interface Product {
   name: string;
   price: number;
   creation: number;
+  img?: string;
 }
 
 export interface Land {
