@@ -1,38 +1,80 @@
 <ion-content padding>
-<h1>{{User.name}}</h1>
+  <ion-header>
+    <ion-navbar color="primary">
+      <ion-title>My Profile</ion-title>
+    </ion-navbar>
+  </ion-header>
+  <br>
+  <br>
+  <br>
 
-<ion-avatar>
-    <img src="../../assets/imgs/ross.jpeg">
-</ion-avatar>
+  <ion-card>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="../../assets/imgs/ross.jpeg">
+      </ion-avatar>
+      <h2>{{user.firstName}} {{user.lastName}}</h2>
+    </ion-item>
 
-<h2 (click)="prodList.hidden=!prodList.hidden">Products</h2>
-<ul #prodList>
-  <li *ngFor="let product of user.productsSold">
-    <div>
-      name : {{product.name}}
-    </div>
-    <div>
-      price : {{product.price}}
-    </div>
-    <div>
-      planted on the : {{product.creation}}
-    </div>
-  </li>
-</ul>
+    <ion-card-content>
+      <p>Add description here</p>
+    </ion-card-content>
 
-<h2 (click)="landList.hidden=!landList.hidden">Land</h2>
-<ul #landList>
-  <li *ngFor="let land of user.productsSold"
-    [ngClass]="{'available': land.free}">
-    <div>
-      name: {{land.name}}
-    </div>
-    <div>
-      free: {{land.free}}
-    </div>
-    <div>
-      owner: {{land.ownerId}}
-    </div>
-  </li>
-</ul>
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="star"></ion-icon>
+          <div>4.6 Rating</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="text"></ion-icon>
+          <div>4 Comments</div>
+        </button>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+
+  <h2 (click)="prodList.hidden=!prodList.hidden">Products</h2>
+  <ion-list #prodList>
+    <ion-item *ngFor="let product of user.productsSold">
+      <ion-thumbnail item-start>
+        <img src="{{product.img}}">
+      </ion-thumbnail>
+      <h2>{{product.name}}</h2>
+      <p>$ {{product.price}}</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+  </ion-list>
+
+  <h2 (click)="landList.hidden=!landList.hidden">Land</h2>
+  <ion-list #landList>
+    <ion-item *ngFor="let land of user.landUsed" [ngClass]="{'available': land.free}">
+      <ion-thumbnail item-start>
+        <img src="{{land.img}}">
+      </ion-thumbnail>
+      <h2>{{land.address.slice(-7)}}</h2>
+      <p>{{land.size}} m<sup>2</sup></p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+  </ion-list>
+
+  <button ion-button round>New Land</button>
+  <button ion-button round>New Product</button>
+  <!--
+  <ul #landList>
+    <li *ngFor="let land of user.landUsed" [ngClass]="{'available': land.free}">
+      <div>
+        name: {{land.name}}
+      </div>
+      <div>
+        free: {{land.free}}
+      </div>
+      <div>
+        owner: {{land.ownerId}}
+      </div>
+    </li>
+  </ul>-->
 </ion-content>

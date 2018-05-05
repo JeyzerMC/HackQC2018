@@ -1,7 +1,13 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+<<<<<<< HEAD
 import { Geolocation } from '@ionic-native/geolocation';
 
+=======
+import { ProfilePage } from '../profile/profile';
+import { OrdersPage } from '../orders/orders';
+ 
+>>>>>>> 377bacf4cabee4e9961b483e6e898aa796f821a5
 declare var google;
  
 @Component({
@@ -13,7 +19,10 @@ export class HomePage {
   username: string;
   @ViewChild('map') mapElement: ElementRef;
   map: any;
- 
+
+  profile = ProfilePage;
+  orders = OrdersPage;
+
   constructor(
     public navCtrl: NavController, 
     public geolocation: Geolocation) {}
@@ -27,7 +36,7 @@ export class HomePage {
     let latLng = new google.maps.LatLng(45.5576996,-74.0104841);
  
     let mapOptions = {
-      center: latLng,
+      center: {lat: 41.876, lng: -87.624},
       zoom: 15,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }

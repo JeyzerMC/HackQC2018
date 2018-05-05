@@ -2,12 +2,12 @@
     <div #map id="map" ion-fixed></div>
 
     <button id="orders" ion-button ion-fixed 
-            color="light" navPop>
+            color="light" [navPush]="orders">
         <ion-icon name="basket"></ion-icon>
     </button>
 
     <button id="garden" ion-button ion-fixed 
-            color="light" navPop>
+            color="light" [navPush]="profile">
         <ion-icon name="contact"></ion-icon>
     </button>
 

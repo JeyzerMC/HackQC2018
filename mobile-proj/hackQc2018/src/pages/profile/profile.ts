@@ -2,12 +2,6 @@ import { Component, Input } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Time } from '@angular/common';
 
-/**
- * Generated class for the ProfilePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 export interface User {
   id: string;
   firstName: string;
@@ -27,6 +21,7 @@ export interface Product {
   name: string;
   price: number;
   creation: number;
+  img?: string;
 }
 
 export interface Land {
@@ -36,6 +31,9 @@ export interface Land {
   posy: number;
   ownerId: string;
   renterId: string;
+  img?: string;
+  size?: number;
+  address?: string;
 }
 
 @IonicPage()
@@ -70,21 +68,46 @@ export class ProfilePage {
         ownerId: "dfsdf",
         renterId: "dfsd"
       }],
-      landUsed: [],
+      landUsed: [
+        {
+          id: "T46",
+          free: true,
+          posx: 67.696050,
+          posy: 76.584777,
+          ownerId: "45",
+          renterId: "24",
+          img : "http://ville.montreal.qc.ca/pls/portal/docs/page/d_durable_fr/media/images/public/A1-Jardin_communautaire_Mile-end-4108.jpg",
+          size: 13.9,
+          address: "Mile End, Montreal, H2T 2V7"
+        },
+        {
+          id: "T46",
+          free: false,
+          posx: 67.660530,
+          posy: 76.584779,
+          ownerId: "46",
+          renterId: "27",
+          img : "https://hgtvhome.sndimg.com/content/dam/images/grdn/fullset/2015/5/17/0/CI_fairmont-rooftop-garden-montreal-6fbf6a8e0000.JPG.rend.hgtvcom.966.644.suffix/1452972294012.jpeg",
+          size: 15.9,
+          address: "Outremont, Montreal, H2V 2W5"
+        },
+      ],
       productsArriving: [],
       productsBought: [],
       productsSold: [
         {
           name: 'Tomato',
           id: '5',
-          price: 5,
-          creation: 5
+          price: 2.91,
+          creation: 5,
+          img: "http://www.vitamix.cz/images/ovoce/detail1/3251-vitamix1.jpg"
         },
         {
-          name: 'Banana',
+          name: 'Blueberries',
           id: '5',
-          price: 5,
-          creation: 5
+          price: 7.96,
+          creation: 5,
+          img: "https://www.producemarketguide.com/sites/default/files/Commodities.tar/Commodities/blueberries_commodity-page.png"
         }
       ]
     }
