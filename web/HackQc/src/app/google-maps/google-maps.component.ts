@@ -21,5 +21,10 @@ export class GoogleMapsComponent implements OnInit {
     };
     
     this.map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
+
+    var ctaLayer = new google.maps.KmlLayer({
+      url: 'https://www.dropbox.com/s/8uptzsp2h4rwo3e/test.kml?dl=1',
+      map: this.map
+    });
   }
 }

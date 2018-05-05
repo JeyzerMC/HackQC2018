@@ -38,10 +38,10 @@ export class HomePage {
     this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
 
     var ctaLayer = new google.maps.KmlLayer({
-      url: 'https://unzip-online.com/en/Download/File?index=0&file=4tECH8iulXnNS7nFk2x3wg%3D%3D',
+      url: 'https://www.dropbox.com/s/8uptzsp2h4rwo3e/test.kml?dl=1',
       // url: 'http://googlemaps.github.io/kml-samples/kml/Placemark/placemark.kml',
       map: this.map
     });
-
+    console.log(ctaLayer);
   }
 }
