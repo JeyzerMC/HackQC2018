@@ -27,8 +27,11 @@ import { ProfilePage } from '../pages/profile/profile';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    HomePage,
     LoginPage,
-    HomePage
+    OrdersPage,
+    ProductPage,
+    ProfilePage
   ],
   providers: [
     StatusBar,
