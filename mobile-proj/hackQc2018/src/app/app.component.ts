@@ -4,8 +4,11 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { LoginPage } from '../pages/login/login';
+import { OrdersPage } from '../pages/orders/orders';
 import { ProfilePage } from '../pages/profile/profile';
 import { ProductPage } from '../pages/product/product';
+import { LandPage } from '../pages/land/land';
+
 @Component({
   templateUrl: 'app.html'
 })
