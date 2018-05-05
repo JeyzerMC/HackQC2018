@@ -20,23 +20,23 @@ page-home {
 
   #orders {
     position: fixed;
-    top: 5%;
-    right: 10%;
+    bottom: 3%;
+    right: 7%;
+    border-radius: 20px;
   }
 
   #garden {
     position: fixed;
-    top: 5%;
-    left: 10%;
+    bottom: 3%;
+    left: 7%;
+    border-radius: 20px;
   }
 
   #search {
     position: fixed;
-    bottom: 15%;
-    left: 20%;
+    top: 5%;
+    left: 0%;
     font-size: 16pt;
-    border-bottom: 2px solid rgb(139, 137, 137);
-    width: 65%;
   }
 }
 
