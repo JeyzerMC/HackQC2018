@@ -18,6 +18,7 @@ import { Product } from "../profile/profile";
 })
 export class OrdersPage {
     public readonly products: Product[];
+    public search: string = "";
 
     constructor(public navCtrl: NavController, public navParams: NavParams) {
         this.products = [{id: "A26", name: "Tomatoes", price: 2.77, creation: 675455, 
@@ -30,6 +31,14 @@ export class OrdersPage {
                           img: "https://www.producemarketguide.com/sites/default/files/Commodities.tar/Commodities/blueberries_commodity-page.png"
                         }
                         ]
+    }
+
+    public onInput(event) {
+        console.log(this.search);
+    }
+
+    public onCancel(event) {
+        console.log(event);
     }
 
     ionViewDidLoad() {
