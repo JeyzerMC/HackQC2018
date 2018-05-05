@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Time } from '@angular/common';
 
 /**
  * Generated class for the ProfilePage page.
@@ -7,6 +8,35 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
+export interface User {
+  id: string;
+  firstName: string;
+  lastName: string;
+  email: string;
+  phoneNumber: string;
+  password: string;
+  landOwned: Land[];
+  landUsed: Land[];
+  productsBought: Product[];
+  productsSold: Product[];
+  productsArriving: Product[];
+}
+
+export interface Product {
+  id: string;
+  name: string;
+  price: number;
+  creation: number;
+}
+
+export interface Land {
+  id: string;
+  free: boolean;
+  posx: number;
+  posy: number;
+  ownerId: string;
+  renterId: string;
+}
 
 @IonicPage()
 @Component({
@@ -14,6 +44,48 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'profile.html',
 })
 export class ProfilePage {
+  user: User =
+    {
+      id: "dsf",
+      firstName: 'Ross',
+      lastName: 'Ulbricht',
+      email: 'ross.ulbricht@gmail.com',
+      phoneNumber: "5145145145",
+      password: 'password',
+      landOwned: [{
+        id: "dfsdf",
+        free: true,
+        posx: 3,
+        posy: 5,
+        ownerId: "dfsdf",
+        renterId: "dfsd"
+      },
+      {
+        id: "dfsdf",
+        free: false,
+        posx: 3,
+        posy: 5,
+        ownerId: "dfsdf",
+        renterId: "dfsd"
+      }],
+      landUsed: [],
+      productsArriving: [],
+      productsBought: [],
+      productsSold: [
+        {
+          name: 'Tomato',
+          id: '5',
+          price: 5,
+          creation: 5
+        },
+        {
+          name: 'Banana',
+          id: '5',
+          price: 5,
+          creation: 5
+        }
+      ]
+    }
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

@@ -5,5 +5,40 @@
   Ionic pages and navigation.
 -->
 <ion-content padding>
-<img src="" alt="">
+<h1>{{username}}</h1>
+
+<ion-avatar>
+    <img src="../../assets/imgs/ross.jpeg">
+</ion-avatar>
+
+<h2 (click)="prodList.hidden=!prodList.hidden">Products</h2>
+<ul #prodList>
+  <li *ngFor="let product of user.productsSold">
+    <div>
+      name : {{product.name}}
+    </div>
+    <div>
+      price : {{product.price}}
+    </div>
+    <div>
+      planted on the : {{product.creation}}
+    </div>
+  </li>
+</ul>
+
+<h2 (click)="landList.hidden=!landList.hidden">Land</h2>
+<ul #landList>
+  <li *ngFor="let land of user.productsSold"
+    [ngClass]="{'available': land.free}">
+    <div>
+      name: {{land.name}}
+    </div>
+    <div>
+      free: {{land.free}}
+    </div>
+    <div>
+      owner: {{land.ownerId}}
+    </div>
+  </li>
+</ul>
 </ion-content>
