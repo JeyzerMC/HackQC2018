@@ -17,9 +17,11 @@ export class NewProductPage {
     public product: string;
     public culture: string;
     public options: string;
+    public date: string;
+    public weeks: string[];
 
     constructor(public navCtrl: NavController, public navParams: NavParams) {
-
+        this.weeks = Array.apply(0, Array(100)).map(function(_,b) { return b + 1; });
     }
 
     ionViewDidLoad() {

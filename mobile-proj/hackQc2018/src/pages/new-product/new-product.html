@@ -42,5 +42,15 @@
         <ion-option>Chemical Boosters</ion-option>
       </ion-select>
     </ion-item>
+    <ion-item>
+      <ion-label>Start Date</ion-label>
+      <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="date"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label>Growing Forecast (weeks)</ion-label>
+      <ion-select [(ngModel)]="time">
+        <ion-option *ngFor="let week of weeks" value="week">{{week}}</ion-option>
+      </ion-select>
+    </ion-item>
   </ion-list>
 </ion-content>
