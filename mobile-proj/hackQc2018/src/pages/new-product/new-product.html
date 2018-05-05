@@ -34,7 +34,7 @@
         <ion-option value="potting">Potting Soil</ion-option>
       </ion-select>
     </ion-item>
-    <ion-item *ngIf="culture !== 'hydroponics'">
+    <ion-item *ngIf="culture && culture !== 'hydroponics'">
       <ion-label>Options</ion-label>
       <ion-select [(ngModel)]="options" multiple="true">
         <ion-option>Organic</ion-option>
