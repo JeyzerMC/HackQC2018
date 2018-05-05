@@ -1,10 +1,17 @@
-<ion-content padding>
-  <button ion-button icon-left color="light" navPop>
-    <ion-icon name="arrow-back"></ion-icon>
-    Back
+<ion-content>
+  <div #map id="map" ion-fixed></div>
+
+  <button id="orders" ion-button ion-fixed 
+          color="light" navPop>
+      <ion-icon name="basket"></ion-icon>
   </button>
-  <h2>
-    Welcome {{username}}
-  </h2>
-  <div #map id="map"></div>
+
+  <button id="garden" ion-button ion-fixed 
+          color="light" navPop>
+      <ion-icon name="contact"></ion-icon>
+  </button>
+
+  <ion-input placeholder="Looking for something?"
+             ion-fixed id="search"
+             autocomplete="on"></ion-input>
 </ion-content>

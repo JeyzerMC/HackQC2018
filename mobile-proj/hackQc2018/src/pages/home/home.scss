@@ -1,8 +1,42 @@
 page-home {
   #map {
-      height: 108%;
-      width: 115%;
-      margin: -20px;
+      height: 100%;
+      width: 100%;
+      position: fixed;
+
+      a[href^="http://maps.google.com/maps"],
+      a[href^="https://maps.google.com/maps"],
+      a[href^="https://www.google.com/maps"] {
+          display: none !important;
+      }
+      .gm-bundled-control .gmnoprint {
+          display: none;
+      }
+      .gmnoprint:not(.gm-bundled-control) {
+          display: none;
+      }
+      
+  }
+
+  #orders {
+    position: fixed;
+    top: 5%;
+    right: 10%;
+  }
+
+  #garden {
+    position: fixed;
+    top: 5%;
+    left: 10%;
+  }
+
+  #search {
+    position: fixed;
+    bottom: 15%;
+    left: 20%;
+    font-size: 16pt;
+    border-bottom: 2px solid rgb(139, 137, 137);
+    width: 65%;
   }
 }
 
