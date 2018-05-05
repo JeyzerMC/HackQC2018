@@ -1,18 +1,29 @@
-<!--
-  Generated template for the SignupPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>signup</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
 <ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-input #email type="email" placeholder="email"></ion-input>
+    </ion-item>
 
+    <ion-item>
+      <ion-input #password type="password" placeholder="password"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-input #passwordConf type="password" placeholder="password confirmation"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input #firstName type="text" placeholder="first name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input #lastName type="text" placeholder="last name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input #phone type="phone" placeholder="phone"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <button ion-button (click)="signup(email.value, password.value, firstName.value, lastName.value, phone.value)" [disabled]="!password.value || password.value!== passwordConf.value">signup</button>
 </ion-content>
