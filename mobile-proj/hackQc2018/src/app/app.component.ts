@@ -9,6 +9,7 @@ import { ProfilePage } from '../pages/profile/profile';
 import { ProductPage } from '../pages/product/product';
 import { LandPage } from '../pages/land/land';
 import { SignupPage } from '../pages/signup/signup';
+import { NewProductPage } from '../pages/new-product/new-product';
 
 @Component({
   templateUrl: 'app.html'
