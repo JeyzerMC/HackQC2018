@@ -10,6 +10,7 @@ import { LoginPage } from '../pages/login/login';
 import { OrdersPage } from '../pages/orders/orders';
 import { ProductPage } from '../pages/product/product';
 import { ProfilePage } from '../pages/profile/profile';
+import { LandPage } from '../pages/land/land';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProfilePage } from '../pages/profile/profile';
     LoginPage,
     OrdersPage,
     ProductPage,
-    ProfilePage
+    ProfilePage,
+    LandPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { ProfilePage } from '../pages/profile/profile';
     LoginPage,
     OrdersPage,
     ProductPage,
-    ProfilePage
+    ProfilePage,
+    LandPage
   ],
   providers: [
     StatusBar,
