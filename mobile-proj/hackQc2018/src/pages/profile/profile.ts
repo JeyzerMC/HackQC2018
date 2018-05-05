@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Time } from '@angular/common';
 
@@ -44,6 +44,8 @@ export interface Land {
   templateUrl: 'profile.html',
 })
 export class ProfilePage {
+  @Input() userId: string;
+
   user: User =
     {
       id: "dsf",

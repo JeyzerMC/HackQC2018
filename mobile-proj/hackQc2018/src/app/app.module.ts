@@ -10,6 +10,10 @@ import { LoginPage } from '../pages/login/login';
 import { OrdersPage } from '../pages/orders/orders';
 import { ProductPage } from '../pages/product/product';
 import { ProfilePage } from '../pages/profile/profile';
+import { SignupPage } from '../pages/signup/signup';
+import { NewProductPage } from '../pages/new-product/new-product';
+import { NewLandPage } from '../pages/new-land/new-land';
+import { LandPage } from '../pages/land/land';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { ProfilePage } from '../pages/profile/profile';
     LoginPage,
     OrdersPage,
     ProductPage,
-    ProfilePage
+    ProfilePage,
+    SignupPage,
+    NewProductPage,
+    NewLandPage,
+    LandPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +39,11 @@ import { ProfilePage } from '../pages/profile/profile';
     LoginPage,
     OrdersPage,
     ProductPage,
-    ProfilePage
+    ProfilePage,
+    SignupPage,
+    NewProductPage,
+    NewLandPage,
+    LandPage
   ],
   providers: [
     StatusBar,

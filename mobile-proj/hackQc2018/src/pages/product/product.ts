@@ -1,12 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the ProductPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { Identifiers } from '@angular/compiler';
+import { Product } from '../profile/profile';
 
 @IonicPage()
 @Component({
@@ -14,12 +9,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'product.html',
 })
 export class ProductPage {
+  @Input() productId: string;
+  product: Product = 
+  {
+    id: '5',
+    name: 'tomatoes',
+    price: 7,
+    creation: 9
+  };
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ProductPage');
-  }
-
 }

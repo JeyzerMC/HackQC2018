@@ -1,0 +1,56 @@
+<!--
+  Generated template for the NewProductPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Sell New Product</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label>Product</ion-label>
+      <ion-select [(ngModel)]="product">
+        <ion-option value="tomatoes">Tomatoes</ion-option>
+        <ion-option value="apples">Apples</ion-option>
+        <ion-option value="strawberries">Strawberries</ion-option>
+        <ion-option value="blueberries">Blueberries</ion-option>
+        <ion-option value="cucumbers">Cucumbers</ion-option>
+        <ion-option value="other">Other</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Type of culture</ion-label>
+      <ion-select [(ngModel)]="culture">
+        <ion-option value="hydroponics">Hydroponics</ion-option>
+        <ion-option value="dirt">Dirt</ion-option>
+        <ion-option value="potting">Potting Soil</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item *ngIf="culture && culture !== 'hydroponics'">
+      <ion-label>Options</ion-label>
+      <ion-select [(ngModel)]="options" multiple="true">
+        <ion-option>Organic</ion-option>
+        <ion-option>Pesticides & Herbicides</ion-option>
+        <ion-option>Chemical Boosters</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Start Date</ion-label>
+      <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="date"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label>Growing Forecast (weeks)</ion-label>
+      <ion-select [(ngModel)]="time">
+        <ion-option *ngFor="let week of weeks" value="week">{{week}}</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+</ion-content>
