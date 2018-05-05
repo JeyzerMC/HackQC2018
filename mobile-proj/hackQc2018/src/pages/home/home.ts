@@ -40,6 +40,14 @@ export class HomePage {
  
     this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
 
+<<<<<<< HEAD
+    var ctaLayer = new google.maps.KmlLayer({
+      url: 'https://www.dropbox.com/s/8uptzsp2h4rwo3e/test.kml?dl=1',
+      // url: 'http://googlemaps.github.io/kml-samples/kml/Placemark/placemark.kml',
+      map: this.map
+    });
+    console.log(ctaLayer);
+=======
     // var agriculturesAreas = new google.maps.KmlLayer({
     //   url: 'https://www.dropbox.com/s/4bi3gxdbc898ipp/zone-agricole.kml?dl=1',
     //   map: this.map
@@ -77,5 +85,6 @@ export class HomePage {
       url: 'https://www.dropbox.com/s/8uptzsp2h4rwo3e/test.kml?dl=1',
       map: this.map,
     });
+>>>>>>> 4cc176aaf5d35a84ac6517c45d66d6f6f836e476
   }
 }
