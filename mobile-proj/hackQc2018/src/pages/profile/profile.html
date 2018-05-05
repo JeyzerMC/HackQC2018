@@ -13,13 +13,11 @@
       <ion-avatar item-start>
         <img src="../../assets/imgs/ross.jpeg">
       </ion-avatar>
-      <h2>{{user.name}}</h2>
-      <p>November 5, 1955</p>
+      <h2>{{user.firstName}} {{user.lastName}}</h2>
     </ion-item>
 
     <ion-card-content>
-      <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?!
-        Whoa. This is heavy.</p>
+      <p>Add description here</p>
     </ion-card-content>
 
     <ion-row>
@@ -39,28 +37,35 @@
 
   </ion-card>
 
-  <ion-avatar>
-    <img src="">
-  </ion-avatar>
-
   <h2 (click)="prodList.hidden=!prodList.hidden">Products</h2>
-  <ul #prodList>
-    <li *ngFor="let product of user.productsSold">
-      <div>
-        name : {{product.name}}
-      </div>
-      <div>
-        price : {{product.price}}
-      </div>
-      <div>
-        planted on the : {{product.creation}}
-      </div>
-    </li>
-  </ul>
+  <ion-list #prodList>
+    <ion-item *ngFor="let product of user.productsSold">
+      <ion-thumbnail item-start>
+        <img src="{{product.img}}">
+      </ion-thumbnail>
+      <h2>{{product.name}}</h2>
+      <p>$ {{product.price}}</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+  </ion-list>
 
   <h2 (click)="landList.hidden=!landList.hidden">Land</h2>
+  <ion-list #landList>
+    <ion-item *ngFor="let land of user.landUsed" [ngClass]="{'available': land.free}">
+      <ion-thumbnail item-start>
+        <img src="{{land.img}}">
+      </ion-thumbnail>
+      <h2></h2>
+      <p>{{land.size}} m<sup>2</sup></p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+  </ion-list>
+
+  <button ion-button round>New Land</button>
+  <button ion-button round>New Product</button>
+  <!--
   <ul #landList>
-    <li *ngFor="let land of user.productsSold" [ngClass]="{'available': land.free}">
+    <li *ngFor="let land of user.landUsed" [ngClass]="{'available': land.free}">
       <div>
         name: {{land.name}}
       </div>
@@ -71,5 +76,5 @@
         owner: {{land.ownerId}}
       </div>
     </li>
-  </ul>
+  </ul>-->
 </ion-content>
