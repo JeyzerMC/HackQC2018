@@ -1,5 +1,7 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { Geolocation } from '@ionic-native/geolocation';
+
 import { ProfilePage } from '../profile/profile';
 import { OrdersPage } from '../orders/orders';
  
@@ -19,15 +21,16 @@ export class HomePage {
   orders = OrdersPage;
 
   constructor(
-    public navCtrl: NavController) {}
+    public navCtrl: NavController, 
+    public geolocation: Geolocation) {}
  
   ionViewDidLoad(){
     this.loadMap();
   }
  
   loadMap(){
-    // let latLng = new google.maps.LatLng(45.5073,-73.6273);
-    // let latLng = new google.maps.LatLng(37.06, -95.68);
+    
+    let latLng = new google.maps.LatLng(45.5576996,-74.0104841);
  
     let mapOptions = {
       center: {lat: 41.876, lng: -87.624},
@@ -38,10 +41,10 @@ export class HomePage {
     this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
 
     var ctaLayer = new google.maps.KmlLayer({
-      url: 'https://unzip-online.com/en/Download/File?index=0&file=4tECH8iulXnNS7nFk2x3wg%3D%3D',
+      url: 'https://www.dropbox.com/s/8uptzsp2h4rwo3e/test.kml?dl=1',
       // url: 'http://googlemaps.github.io/kml-samples/kml/Placemark/placemark.kml',
       map: this.map
     });
-
+    console.log(ctaLayer);
   }
 }
