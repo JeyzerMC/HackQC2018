@@ -1,13 +1,10 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-<<<<<<< HEAD
 import { Geolocation } from '@ionic-native/geolocation';
 
-=======
 import { ProfilePage } from '../profile/profile';
 import { OrdersPage } from '../orders/orders';
  
->>>>>>> 377bacf4cabee4e9961b483e6e898aa796f821a5
 declare var google;
  
 @Component({
