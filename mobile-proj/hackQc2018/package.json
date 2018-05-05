@@ -49,13 +49,10 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-<<<<<<< HEAD
       "cordova-plugin-geolocation": {
         "GEOLOCATION_USAGE_DESCRIPTION": "To locate you"
-      }
-=======
+      },
       "cordova-plugin-advanced-http": {}
->>>>>>> 377bacf4cabee4e9961b483e6e898aa796f821a5
     }
   }
 }
