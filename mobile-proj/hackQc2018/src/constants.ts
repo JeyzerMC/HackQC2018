@@ -1,0 +1,2 @@
+export const API_BASE_URL: string = 'https://freshtomatoapi.azurewebsites.net/api/';
+export const API_USERS_URL: string = API_BASE_URL + 'users/';export const API_PRODUCTS_URL: string = API_BASE_URL + 'products/';export const API_LAND_URL: string = API_BASE_URL + 'land/';

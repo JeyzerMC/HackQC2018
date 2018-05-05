@@ -14,6 +14,8 @@ import { SignupPage } from '../pages/signup/signup';
 import { NewProductPage } from '../pages/new-product/new-product';
 import { NewLandPage } from '../pages/new-land/new-land';
 import { LandPage } from '../pages/land/land';
+import { HTTP } from '@ionic-native/http';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import { LandPage } from '../pages/land/land';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -47,6 +50,7 @@ import { LandPage } from '../pages/land/land';
   ],
   providers: [
     StatusBar,
+    HTTP,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
