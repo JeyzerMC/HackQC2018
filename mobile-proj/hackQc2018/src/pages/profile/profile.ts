@@ -41,6 +41,8 @@ export interface Land {
   img?: string;
   size?: number;
   address?: string;
+  type?: string;
+  orientation?: string;
 }
 
 @IonicPage()
@@ -90,7 +92,9 @@ export class ProfilePage {
           renterId: "24",
           img: this.landTypeImg("garden"),
           size: 13.9,
-          address: "Mile End, Montreal, H2T 2V7"
+          address: "Mile End, Montreal, H2T 2V7",
+          type: "Garden",
+          orientation: "South West"
         },
         {
           id: "T46",
@@ -101,7 +105,9 @@ export class ProfilePage {
           renterId: "27",
           img: this.landTypeImg("rooftop"),
           size: 15.9,
-          address: "Outremont, Montreal, H2V 2W5"
+          address: "Outremont, Montreal, H2V 2W5",
+          type: "Rooftop",
+          orientation: "North East"
         },
       ],
       productsArriving: [],

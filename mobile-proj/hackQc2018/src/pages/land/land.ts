@@ -23,4 +23,8 @@ export class LandPage {
     console.log('ionViewDidLoad LandPage');
   }
 
+  landTypeImg(type) {
+    return `../../assets/imgs/lands/${type}.jpg`;
+  }
+
 }
