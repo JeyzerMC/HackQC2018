@@ -45,7 +45,7 @@
       </ion-thumbnail>
       <h2>{{product.name}}</h2>
       <p>$ {{product.price}}</p>
-      <button ion-button clear item-end>View</button>
+      <button ion-button clear item-end [navPush]="product" [navParams]="{product: product}">View</button>
     </ion-item>
   </ion-list>
 

@@ -1,7 +1,8 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController, NavParams, AlertController } from 'ionic-angular';
-import { Geolocation } from '@ionic-native/geolocation';
 import { LandPage } from '../land/land';
+import { User, ProfilePage } from '../profile/profile';
+import { OrdersPage } from '../orders/orders';
 
 declare var google;
  
@@ -11,14 +12,16 @@ declare var google;
 })
 export class HomePage {
   
-  username: string;
+  user: User;
   @ViewChild('map') mapElement: ElementRef;
   map: any;
+  orders = OrdersPage;
+  profile = ProfilePage;
+
   land = LandPage;
  
   constructor(
     public navCtrl: NavController, 
-    public geolocation: Geolocation, 
     public alertCtrl: AlertController) {}
   
   ionViewDidLoad(){
@@ -26,7 +29,7 @@ export class HomePage {
   }
 
   loadMap(){
-    
+
     let latLng = new google.maps.LatLng(45.5576996,-74.0104841);
  
     let mapOptions = {
@@ -65,6 +68,8 @@ export class HomePage {
       map: this.map,
       radius: 5000,    // 10 miles in metres
       fillColor: '#AA0000',
+      fillOpacity: 0.1,
+      strokeWeight: 0.1,
       clickable: false
     });
     circle.bindTo('center', marker, 'position');
@@ -96,7 +101,7 @@ export class HomePage {
             }
           }
         ]
-      })
+      }).present();
     })
   
   }
