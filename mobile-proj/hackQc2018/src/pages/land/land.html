@@ -26,25 +26,25 @@
     <ion-item>
       <ion-icon name="home" item-start large></ion-icon>
       <h2>Type</h2>
-      <p>{{land.type}}</p>
+      <p>{{land?.type}}</p>
     </ion-item>
   
     <ion-item>
       <ion-icon name="compass" item-left large ></ion-icon>
       <h2>Orientation</h2>
-      <p>{{land.orientation}}</p>
+      <p>{{land?.orientation}}</p>
     </ion-item>
 
     <ion-item>
       <ion-icon name="crop" item-left large ></ion-icon>
       <h2>Size</h2>
-      <p>{{land.size}} m<sup>2</sup></p>
+      <p>{{land?.size}} m<sup>2</sup></p>
     </ion-item>
 
     <ion-item>
       <ion-icon name="pin" item-left large ></ion-icon>
       <h2>Location</h2>
-      <p>{{land.address}}</p>
+      <p>{{land?.address}}</p>
     </ion-item>
   
     <ion-item>
@@ -52,8 +52,8 @@
       <span item-left>18 min</span>
       <span item-left>(2.6 mi)</span>
       <button ion-button icon-left clear item-end>
-        <ion-icon name="chatbubbles"></ion-icon>
-        Contact Owner
+        <ion-icon name="card"></ion-icon>
+        Rent
       </button>
     </ion-item>
   </ion-card>
