@@ -1,6 +1,8 @@
 import { Component, Input } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Time } from '@angular/common';
+import { LandPage } from '../land/land';
+import { NewProductPage } from '../new-product/new-product';
 
 export interface User {
   id: string;
@@ -43,6 +45,9 @@ export interface Land {
 })
 export class ProfilePage {
   @Input() userId: string;
+
+  land = LandPage;
+  newProduct = NewProductPage;
 
   user: User =
     {
@@ -117,6 +122,10 @@ export class ProfilePage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ProfilePage');
+  }
+
+  selectLand() {
+    
   }
 
 }
