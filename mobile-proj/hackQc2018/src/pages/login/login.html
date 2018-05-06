@@ -1,5 +1,5 @@
 <ion-content padding>
-  <h2>fresh tomatoes</h2>
+  <h2>GreenYards</h2>
   <img src="../../assets/imgs/logo.png" alt="">
   <ion-item>
     <ion-label fixed>Email</ion-label>
@@ -10,9 +10,16 @@
     <ion-label fixed>Password</ion-label>
     <ion-input #password type="password"></ion-input>
   </ion-item>
-  <button ion-button (click)="login(email.value, password.value)" [disabled]="!email.value || !password.value">
-    Login
-  </button>
-  <a (click)="openSignupModal()">Signup</a>
+  <div class="row">
+    <div class="col">
+      <button ion-button (click)="login(email.value, password.value)" [disabled]="!email.value || !password.value" class="button button-block button-custom2">
+        Login
+      </button>
+    </div>
+  </div>
+  <div class="row">
+    <div text-center class="col">
+      <a (click)="openSignupModal()">Signup</a>
+    </div>
+  </div>
 </ion-content>
-

@@ -1,8 +1,10 @@
-<ion-content padding>
-  <button ion-button color="light" navPop>
-    <ion-icon name="arrow-back"></ion-icon>
-  </button>
+<ion-header>
+  <ion-navbar color="primary" navPop>
+    <ion-title>Sign up</ion-title>
+  </ion-navbar>
+</ion-header>
 
+<ion-content padding>
   <ion-list>
     <ion-item>
       <ion-input #email type="email" placeholder="email"></ion-input>
@@ -29,5 +31,6 @@
     </ion-item>
   </ion-list>
 
+  <button ion-button navPop>Back to login</button>
   <button ion-button (click)="signup(email.value, password.value, firstName.value, lastName.value, phone.value)" [disabled]="!password.value || password.value!== passwordConf.value">signup</button>
 </ion-content>
