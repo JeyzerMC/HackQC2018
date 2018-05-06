@@ -1,13 +1,31 @@
 
 <ion-header>
   <ion-navbar>
-    <button ion-button color="light" navPop>
-      <ion-icon name="arrow-back"></ion-icon>
-    </button>
-      <ion-title>Rent my land</ion-title>
+      <ion-title>Sublet my land</ion-title>
     </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-
+    <ion-list>
+        <ion-label>Soil</ion-label>
+    
+        <ion-item>
+          <ion-label>Restrictions</ion-label>
+          <ion-select [(ngModel)]="product">
+            <ion-option value="tomatoes">Tomatoes</ion-option>
+            <ion-option value="apples">Apples</ion-option>
+            <ion-option value="strawberries">Strawberries</ion-option>
+          </ion-select>
+        </ion-item>
+        <ion-item>
+        </ion-item>
+        <ion-item>
+          <ion-label fixed>Size</ion-label>
+          <ion-input type="text" [(ngModel)]="price"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label fixed>Price per month</ion-label>
+          <ion-input type="text" [(ngModel)]="price"></ion-input>
+        </ion-item>
+    </ion-list>
 </ion-content>

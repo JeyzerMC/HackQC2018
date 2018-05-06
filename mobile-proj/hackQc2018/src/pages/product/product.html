@@ -1,6 +1,11 @@
-<ion-content padding>
+<ion-header>
+    <ion-navbar color="primary">
+      <ion-title></ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding>
   <ion-card>
-
     <img src="{{productsImg('tomatoes')}}">
     <ion-fab right top>
       <button ion-fab>
@@ -13,19 +18,19 @@
         <img src="../../assets/imgs/ross.jpeg">
       </ion-avatar>
       <h2>Grown by</h2>
-      <p>{{product.owner}}</p>
+      <p>{{product?.owner}}</p>
     </ion-item>
 
     <ion-item>
       <ion-icon name="cash" item-left large></ion-icon>
       <h2>Price per pound</h2>
-      <p>$ {{product.price}}</p>
+      <p>$ {{product?.price}}</p>
     </ion-item>
 
     <ion-item>
       <ion-icon name="leaf" item-left large></ion-icon>
       <h2>Harvested on</h2>
-      <p>{{product.creation}}</p>
+      <p>{{product?.creation}}</p>
     </ion-item>
 
     <ion-item>
@@ -36,8 +41,8 @@
 
     <ion-item>
       <ion-icon name="pin" item-left large></ion-icon>
-      <h2>Temperature : {{product.temperature}}°C</h2>
-      <h2>Moisture : {{product.moisture}}%</h2>
+      <h2>Temperature : {{product?.temperature}}°C</h2>
+      <h2>Moisture : {{product?.moisture}}%</h2>
     </ion-item>
 
     <ion-item>

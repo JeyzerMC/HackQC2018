@@ -16,6 +16,7 @@ import { NewLandPage } from '../pages/new-land/new-land';
 import { LandPage } from '../pages/land/land';
 import { HTTP } from '@ionic-native/http';
 import { HttpClientModule } from '@angular/common/http';
+import { DataPage } from '../pages/data/data';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     SignupPage,
     NewProductPage,
     NewLandPage,
-    LandPage
+    LandPage,
+    DataPage
   ],
   imports: [
     BrowserModule,
@@ -46,7 +48,8 @@ import { HttpClientModule } from '@angular/common/http';
     SignupPage,
     NewProductPage,
     NewLandPage,
-    LandPage
+    LandPage,
+    DataPage
   ],
   providers: [
     StatusBar,

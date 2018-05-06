@@ -14,7 +14,7 @@ export class ProductPage {
     constructor(
       public navCtrl: NavController,
       public navParams: NavParams) {
-      console.log('product:', this.product);
+        this.product = this.navParams.get('product');
     }
 
     productsImg(name) {

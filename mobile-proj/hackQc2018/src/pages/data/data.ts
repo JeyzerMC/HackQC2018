@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the LandPage page.
+ * Generated class for the DataPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,17 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-land',
-  templateUrl: 'land.html',
+  selector: 'page-data',
+  templateUrl: 'data.html',
 })
-export class LandPage {
-  land;
+export class DataPage {
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.land = this.navParams.get('land');
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LandPage');
+    console.log('ionViewDidLoad DataPage');
   }
 
 }

@@ -52,6 +52,8 @@ export class ProfilePage {
   @Input() userId: string;
 
   land = LandPage;
+  product = ProductPage;
+  newLand = NewLandPage;
   newProduct = NewProductPage;
 
   user: User =
