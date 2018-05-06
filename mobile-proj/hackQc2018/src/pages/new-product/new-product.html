@@ -71,9 +71,10 @@
 
     <ion-item>
       <ion-label fixed>Price per pound</ion-label>
-      <ion-input type="text" value="price"></ion-input>
+      <ion-input type="text" [(ngModel)]="price"></ion-input>
     </ion-item>
 
   </ion-list>
-  <button ion-button round>Register</button>
+  <button ion-button round (click)="register(product, culture, duration, amount, price, date, options)"
+  [disabled]="!(product && culture && duration && amount && price && date)">Register</button>
 </ion-content>
