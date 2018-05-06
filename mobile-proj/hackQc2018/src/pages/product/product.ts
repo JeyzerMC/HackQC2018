@@ -29,3 +29,4 @@ export class ProductPage {
         return `../../assets/imgs/products/${name}.jpg`;
     }
 }
+

@@ -22,7 +22,9 @@ export class HomePage {
  
   constructor(
     public navCtrl: NavController, 
-    public alertCtrl: AlertController) {}
+    public alertCtrl: AlertController) {
+      console.log('home:', this.user);
+  }
   
   ionViewDidLoad(){
     this.loadMap();
