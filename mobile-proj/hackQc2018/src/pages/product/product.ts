@@ -9,20 +9,12 @@ import { Product } from '../profile/profile';
     templateUrl: 'product.html',
 })
 export class ProductPage {
-    @Input() productId: string;
-    product: Product =
-        {
-            id: '5',
-            name: 'tomatoes',
-            price: 5.54,
-            creation: "12/05/2017",
-            owner: "Ross Ulbricht",
-            temperature: 19,
-            moisture: 89
-        };
+    product: Product;
 
-    constructor(public navCtrl: NavController, public navParams: NavParams) {
-
+    constructor(
+      public navCtrl: NavController,
+      public navParams: NavParams) {
+      console.log('product:', this.product);
     }
 
     productsImg(name) {

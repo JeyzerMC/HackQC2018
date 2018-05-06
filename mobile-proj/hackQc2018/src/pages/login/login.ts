@@ -46,7 +46,7 @@ export class LoginPage {
       } else {
         this.httpBrowser.get(API_USERS_URL + '/SearchByEmail?email=' + email, {}).toPromise().then((user) => {
           console.log(user);
-          if (user.password === password) {
+          if ((user as any).password === password) {
             this.navCtrl.push(HomePage, {user: user})
           } else {
             this.showAlert('error', 'wrong passsword');
