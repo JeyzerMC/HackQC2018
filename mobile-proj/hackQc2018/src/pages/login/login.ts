@@ -39,20 +39,20 @@ export class LoginPage {
           if (user.data.password === password) {
             this.navCtrl.push(HomePage, {user: user.data})
           } else {
-            this.showAlert('error', 'wrong passsword');
+            this.showAlert('Login failed', 'Please check your password');
           }
         })
-        .catch((err) => { this.showAlert('error', 'no user with this email'); console.error(err) })
+        .catch((err) => { this.showAlert('Login error', 'No user with this email'); console.error(err) })
       } else {
         this.httpBrowser.get(API_USERS_URL + '/SearchByEmail?email=' + email, {}).toPromise().then((user) => {
           console.log(user);
           if ((user as any).password === password) {
             this.navCtrl.push(HomePage, {user: user})
           } else {
-            this.showAlert('error', 'wrong passsword');
+            this.showAlert('Login failed', 'Please check your password');
           }
         })
-        .catch((err) => { this.showAlert('error', 'no user with this email') })
+        .catch((err) => { this.showAlert('Login error', 'No user with this email') })
     }
   }
 
