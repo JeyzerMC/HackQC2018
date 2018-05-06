@@ -35,6 +35,11 @@
       <ion-input #phone type="phone" placeholder="phone"></ion-input>
     </ion-item>
   </ion-list>
-  
-  <button ion-button (click)="signup(email.value, password.value, firstName.value, lastName.value, phone.value)" [disabled]="!password.value || password.value!== passwordConf.value">signup</button>
+
+  <div class="row">
+    <div class="col">
+      <button ion-button class="button button-block button-custom2" (click)="signup(email.value, password.value, firstName.value, lastName.value, phone.value)" [disabled]="!password.value || password.value!== passwordConf.value">Signup</button>
+    </div>
+  </div>
+
 </ion-content>
