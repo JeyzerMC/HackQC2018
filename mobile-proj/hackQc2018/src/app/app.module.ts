@@ -53,7 +53,6 @@ import { HttpClientModule } from '@angular/common/http';
     StatusBar,
     HTTP,
     SplashScreen,
-    Geolocation,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

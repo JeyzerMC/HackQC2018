@@ -16,6 +16,7 @@
 <ion-content padding>
   <ion-list>
     <ion-label>Product Information</ion-label>
+
     <ion-item>
       <ion-label>Product</ion-label>
       <ion-select [(ngModel)]="product">
@@ -28,7 +29,9 @@
       </ion-select>
     </ion-item>
     <ion-item>
+
       <ion-label>Type of culture</ion-label>
+
       <ion-select [(ngModel)]="culture">
         <ion-option value="hydroponics">Hydroponics</ion-option>
         <ion-option value="dirt">Dirt</ion-option>
@@ -43,17 +46,35 @@
         <ion-option>Chemical Boosters</ion-option>
       </ion-select>
     </ion-item>
+
     <ion-label>Growing calendar</ion-label>
+
     <ion-item>
       <ion-label>Start Date</ion-label>
       <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="date"></ion-datetime>
     </ion-item>
     <ion-item>
       <ion-label>Growing Forecast (weeks)</ion-label>
-      <ion-select [(ngModel)]="time">
-        <ion-option *ngFor="let week of weeks" value="week">{{week}}</ion-option>
+      <ion-select [(ngModel)]="duration">
+        <ion-option *ngFor="let week of weeks" [value]="week">{{week}}</ion-option>
       </ion-select>
     </ion-item>
+
+    <ion-label>Sell</ion-label>
+
+    <ion-item>
+      <ion-label>Quantity (lbs)</ion-label>
+      <ion-select [(ngModel)]="amount">
+        <ion-option *ngFor="let quantity of quantities" [value]="quantity">{{quantity}}</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label fixed>Price per pound</ion-label>
+      <ion-input type="text" [(ngModel)]="price"></ion-input>
+    </ion-item>
+
   </ion-list>
-  <button ion-button round>Register</button>
+  <button ion-button round (click)="register(product, culture, duration, amount, price, date, options)"
+  [disabled]="!(product && culture && duration && amount && price && date)">Register</button>
 </ion-content>

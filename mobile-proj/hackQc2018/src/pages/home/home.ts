@@ -1,13 +1,9 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
-<<<<<<< HEAD
-import { Geolocation } from '@ionic-native/geolocation';
-
-=======
-import { ProfilePage } from '../profile/profile';
+import { NavController, NavParams, AlertController } from 'ionic-angular';
+import { LandPage } from '../land/land';
+import { User, ProfilePage } from '../profile/profile';
 import { OrdersPage } from '../orders/orders';
- 
->>>>>>> 377bacf4cabee4e9961b483e6e898aa796f821a5
+
 declare var google;
  
 @Component({
@@ -16,41 +12,34 @@ declare var google;
 })
 export class HomePage {
   
-  username: string;
+  user: User;
   @ViewChild('map') mapElement: ElementRef;
   map: any;
-
-  profile = ProfilePage;
   orders = OrdersPage;
+  profile = ProfilePage;
 
+  land = LandPage;
+ 
   constructor(
     public navCtrl: NavController, 
-    public geolocation: Geolocation) {}
- 
+    public alertCtrl: AlertController) {}
+  
   ionViewDidLoad(){
     this.loadMap();
   }
- 
+
   loadMap(){
-    
+
     let latLng = new google.maps.LatLng(45.5576996,-74.0104841);
  
     let mapOptions = {
-      center: {lat: 41.876, lng: -87.624},
+      center: latLng,
       zoom: 15,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
  
     this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
 
-<<<<<<< HEAD
-    var ctaLayer = new google.maps.KmlLayer({
-      url: 'https://www.dropbox.com/s/8uptzsp2h4rwo3e/test.kml?dl=1',
-      // url: 'http://googlemaps.github.io/kml-samples/kml/Placemark/placemark.kml',
-      map: this.map
-    });
-    console.log(ctaLayer);
-=======
     // var agriculturesAreas = new google.maps.KmlLayer({
     //   url: 'https://www.dropbox.com/s/4bi3gxdbc898ipp/zone-agricole.kml?dl=1',
     //   map: this.map
@@ -79,6 +68,8 @@ export class HomePage {
       map: this.map,
       radius: 5000,    // 10 miles in metres
       fillColor: '#AA0000',
+      fillOpacity: 0.1,
+      strokeWeight: 0.1,
       clickable: false
     });
     circle.bindTo('center', marker, 'position');
@@ -87,7 +78,32 @@ export class HomePage {
     var communityGarden = new google.maps.KmlLayer({
       url: 'https://www.dropbox.com/s/8uptzsp2h4rwo3e/test.kml?dl=1',
       map: this.map,
+      suppressInfoWindows: true 
     });
->>>>>>> 4cc176aaf5d35a84ac6517c45d66d6f6f836e476
+
+    communityGarden.addListener('click', (kmlEvent) => {
+      console.log(kmlEvent);
+      this.alertCtrl.create({
+        title: 'Rent this garden',
+        message: 'Would you like to rent the garden situated at for price: ...',
+        buttons:
+        [
+          {
+            text: 'Yes',
+            handler: data =>{
+              this.navCtrl.push(this.land);
+            }
+          },
+          {
+            text: 'No',
+            handler: data => {
+
+            }
+          }
+        ]
+      }).present();
+    })
+  
   }
 }
+
