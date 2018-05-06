@@ -17,6 +17,7 @@ export class LandPage {
   land;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.land = this.navParams.get('land');
+    console.log(this.land);
   }
 
   ionViewDidLoad() {

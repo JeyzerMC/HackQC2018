@@ -6,6 +6,7 @@ import { OrdersPage } from '../orders/orders';
 import { CENTROIDS, API_LAND_URL } from '../../constants';
 import { HTTP } from '@ionic-native/http';
 import { HttpClient } from '@angular/common/http';
+import { Land } from "../profile/profile";
 
 declare var google;
  
@@ -22,6 +23,19 @@ export class HomePage {
   profile = ProfilePage;
 
   land = LandPage;
+  randomLand: Land = {
+    id: "T46",
+    free: false,
+    posx: 67.660530,
+    posy: 76.584779,
+    ownerId: "46",
+    renterId: "27",
+    img: this.landTypeImg("rooftop"),
+    size: 15.9,
+    address: "Outremont, Montreal, H2V 2W5",
+    type: "Rooftop",
+    orientation: "North East"
+  }
    
   constructor(
     public navCtrl: NavController, 
@@ -56,7 +70,7 @@ export class HomePage {
  
     let mapOptions = {
       center: latLng,
-      zoom: 15,
+      zoom: 30,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
  
@@ -130,8 +144,9 @@ export class HomePage {
                 [
                   {
                     text: 'Yes',
-                    handler: data =>{
-                      this.navCtrl.push(this.land);
+                    handler: data => {
+                      console.log(resp.data);
+                      this.navCtrl.push(this.land, {land: this.randomLand});
                     }
                   },
                   {
@@ -163,7 +178,7 @@ export class HomePage {
                     {
                       text: 'Yes',
                       handler: data =>{
-                        this.navCtrl.push(this.land);
+                        this.navCtrl.push(this.land, {land: this.randomLand});
                       }
                     },
                     {
@@ -182,5 +197,9 @@ export class HomePage {
       
     });
     
+  }
+
+  landTypeImg(type) {
+    return `../../assets/imgs/lands/${type}.jpg`;
   }
 }
