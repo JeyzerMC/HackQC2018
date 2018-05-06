@@ -14,21 +14,65 @@
     <div class="col-md">
         <div class="row-md">
           <h1>
-            Turn on geolocalisation or enter a postal code here
+            Filters
           </h1>
         </div>
-        <div class="row-md">
-          <button (click)="handleGardenClick()">Jardins Repertoriés</button>
-          <button (click)="handleSecondClick()">Territoires Contaminés</button>
-          <button (click)="handleThirdClick()">Zones à Danger</button>
-          <button (click)="handleFourthClick()">Surfaces Contaminées</button>
-          <button (click)="handleFifthClick()">Écoterritoires</button>
-          <button (click)="handleSixthClick()">Pesticides</button>
-          <button (click)="handleSeventhClick()">Plan d'urbanisme</button>
-          <button (click)="handleEigthClick()">Affectations</button>
-          <button (click)="handleNinthClick()">Ilôt de chaleur</button>
-          <button (click)="handleTenthClick()">Plaines Inondables</button>
-          <button (click)="handleEleventhClick()">Densification</button>
+        <div class="btn-containerHQ">
+			<button type="button" class="btn" 
+					  [ngClass]="status1 ? 'btn-outline-success' : 'btn-outline-secondary'" 
+					  (click)="handleGardenClick()">
+			  Jardins Repertoriés
+			</button>
+			<button type="button" class="btn" 
+					  [ngClass]="status2 ? 'btn-outline-success' : 'btn-outline-secondary'" 
+					  (click)="handleSecondClick()">
+			  Territoires Contaminés
+			</button>
+			<button type="button" class="btn" 
+					  [ngClass]="status3 ? 'btn-outline-success' : 'btn-outline-secondary'" 
+					  (click)="handleThirdClick()">
+			  Zones à Danger
+			</button>
+			<button type="button" class="btn" 
+					  [ngClass]="status4 ? 'btn-outline-success' : 'btn-outline-secondary'" 
+					  (click)="handleFourthClick()">
+			  Surfaces Contaminées
+			</button>
+			<button type="button" class="btn" 
+					  [ngClass]="status5 ? 'btn-outline-success' : 'btn-outline-secondary'" 
+					  (click)="handleFifthClick()">
+			  Écoterritoires
+			</button>
+			<button type="button" class="btn" 
+					  [ngClass]="status6 ? 'btn-outline-success' : 'btn-outline-secondary'" 
+					  (click)="handleSixthClick()">
+			  Pesticides
+			</button>
+			<button type="button" class="btn" 
+					  [ngClass]="status7 ? 'btn-outline-success' : 'btn-outline-secondary'" 
+					  (click)="handleSeventhClick()">
+			  Plan d'urbanisme
+			</button>
+			<button type="button" class="btn" 
+					  [ngClass]="status8 ? 'btn-outline-success' : 'btn-outline-secondary'" 
+					  (click)="handleEigthClick()">
+			  Densification
+			</button>
+			<button type="button" class="btn" 
+					  [ngClass]="status9 ? 'btn-outline-success' : 'btn-outline-secondary'" 
+					  (click)="handleNinthClick()">
+			  Ilôt de chaleur
+			</button>
+			<button type="button" class="btn" 
+					  [ngClass]="status10 ? 'btn-outline-success' : 'btn-outline-secondary'" 
+					  (click)="handleTenthClick()">
+			  Plaines Inondables
+			</button>
+			<button type="button" class="btn" 
+					  [ngClass]="status11 ? 'btn-outline-success' : 'btn-outline-secondary'" 
+					  (click)="handleEleventhClick()">
+			  Périmètre urbain
+			</button>
         </div>
     </div>
   </div>
