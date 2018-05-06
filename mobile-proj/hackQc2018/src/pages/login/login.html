@@ -10,7 +10,7 @@
     <ion-label fixed>password</ion-label>
     <ion-input #password type="password"></ion-input>
   </ion-item>
-  <button ion-button [navPush]="homePage" [navParams]="{email: email.value}" [disabled]="!email.value || !password.value">
+  <button ion-button (click)="login(email.value, password.value)" [disabled]="!email.value || !password.value">
     Login
   </button>
   <a (click)="openSignupModal()">signup</a>
