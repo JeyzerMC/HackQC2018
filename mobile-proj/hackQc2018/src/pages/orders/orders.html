@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>My Orders</ion-title>
   </ion-navbar>
 
@@ -21,13 +21,13 @@
     (ionCancel)="onCancel($event)">
   </ion-searchbar>
   <ion-list>
-    <ion-item *ngFor="let product of products">
+    <ion-item *ngFor="let prod of products">
       <ion-thumbnail item-start>
-        <img src="{{product.img}}">
+        <img src="{{prod.img}}">
       </ion-thumbnail>
-      <h2>{{product.name}}</h2>
-      <p>$ {{product.price}}</p>
-      <button ion-button clear item-end>View</button>
+      <h2>{{prod.name}}</h2>
+      <p>$ {{prod.price}}</p>
+      <button ion-button clear item-end [navPush]="product" [navParams]="{product: prod}">View</button>
     </ion-item>
   </ion-list>
 </ion-content>

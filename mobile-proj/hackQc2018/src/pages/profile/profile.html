@@ -39,29 +39,29 @@
   <ion-label class="txt" (click)="prodList.hidden=!prodList.hidden">Products</ion-label>
   
   <ion-list #prodList>
-    <ion-item *ngFor="let product of user.productsSold">
+    <ion-item *ngFor="let prod of user.productsSold">
       <ion-thumbnail item-start>
-        <img src="{{product.img}}">
+        <img src="{{prod.img}}">
       </ion-thumbnail>
-      <h2>{{product.name}}</h2>
-      <p>$ {{product.price}}</p>
-      <button ion-button clear item-end [navPush]="product" [navParams]="{product: product}">View</button>
+      <h2>{{prod.name}}</h2>
+      <p>$ {{prod.price}}</p>
+      <button ion-button clear item-end [navPush]="product" [navParams]="{product: prod}">View</button>
     </ion-item>
   </ion-list>
 
-  <ion-label class="txt">Land</ion-label>
+  <ion-label class="txt">Lands</ion-label>
   
-  <ion-list #landList click="selectLand()">
-    <ion-item *ngFor="let land of user.landUsed" [ngClass]="{'available': land.free}">
+  <ion-list #landList>
+    <ion-item *ngFor="let l of user.landUsed" [ngClass]="{'available': l.free}">
       <ion-thumbnail item-start>
-        <img src="{{land.img}}">
+        <img src="{{l.img}}">
       </ion-thumbnail>
-      <h2>{{land.address.slice(-7)}}</h2>
-      <p>{{land.size}} m<sup>2</sup></p>
-      <button ion-button clear item-end [navPush]="land">View</button>
+      <h2>{{l.address.slice(-7)}}</h2>
+      <p>{{l.size}} m<sup>2</sup></p>
+      <button ion-button clear item-end [navPush]="land" [navParams]="{land:l}">View</button>
     </ion-item>
   </ion-list>
 
-  <button ion-button round>New Land</button>
+  <button ion-button round [navPush]="newLand">Sublease my land</button>
   <button ion-button round [navPush]="newProduct">New Product</button>
 </ion-content>

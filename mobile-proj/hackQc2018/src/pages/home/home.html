@@ -7,12 +7,12 @@
     </button>
 
     <button id="garden" ion-button ion-fixed 
-            color="light" [navPush]="profile">
+            color="light" [navPush]="profile" [navParams]="{user: user}">
         <ion-icon name="contact"></ion-icon>
     </button>
     <script src="../../assets/kml/centroids.json"></script>
     <ion-searchbar
-        placeholder="Looking for something?"
+        placeholder="Looking for a parcel or fresh food?"
         ion-fixed id="search"
         [(ngModel)]="myInput"
         [showCancelButton]="shouldShowCancel">
