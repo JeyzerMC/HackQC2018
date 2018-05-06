@@ -22,15 +22,13 @@ export class HomePage {
   profile = ProfilePage;
 
   land = LandPage;
- 
+   
   constructor(
     public navCtrl: NavController, 
     public alertCtrl: AlertController,
     public platform: Platform,
     public httpNative: HTTP,
-    public httpBrowser: HttpClient) {
-      console.log('home:', this.user);
-    }
+    public httpBrowser: HttpClient) {}
   
   ionViewDidLoad(){
     this.loadMap();
@@ -186,4 +184,3 @@ export class HomePage {
     
   }
 }
-
