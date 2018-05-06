@@ -6,6 +6,7 @@ import { OrdersPage } from '../orders/orders';
 import { CENTROIDS, API_LAND_URL } from '../../constants';
 import { HTTP } from '@ionic-native/http';
 import { HttpClient } from '@angular/common/http';
+import Web3 from "web3";
 
 declare var google;
  
@@ -22,6 +23,8 @@ export class HomePage {
   profile = ProfilePage;
 
   land = LandPage;
+  web3;
+  lands;
  
   constructor(
     public navCtrl: NavController, 
@@ -31,6 +34,95 @@ export class HomePage {
     public httpBrowser: HttpClient) {}
   
   ionViewDidLoad(){
+    this.lands = [];
+
+    // if (typeof this.web3 !== 'undefined') {
+    //   this.web3 = new Web3(this.web3.currentProvider);
+    // } else {
+    this.web3  = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));;
+    //}
+    // var accounts = [];
+    this.web3.eth.getAccounts().then((accounts) => {
+      const contract = new this.web3.eth.Contract([
+          {
+            "constant": true,
+            "inputs": [],
+            "name": "seller",
+            "outputs": [
+              {
+                "name": "_id",
+                "type": "address"
+              }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+          },
+          {
+            "constant": true,
+            "inputs": [
+              {
+                "name": "product_name",
+                "type": "string"
+              },
+              {
+                "name": "product_quantity",
+                "type": "uint256"
+              },
+              {
+                "name": "price_unity",
+                "type": "uint256"
+              }
+            ],
+            "name": "add_product",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+          },
+          {
+            "constant": false,
+            "inputs": [
+              {
+                "name": "product_name",
+                "type": "string"
+              },
+              {
+                "name": "quantity",
+                "type": "uint256"
+              }
+            ],
+            "name": "Buy",
+            "outputs": [],
+            "payable": true,
+            "stateMutability": "payable",
+            "type": "function"
+          },
+          {
+            "inputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+          }
+      ], '0xe9d09feae7649857757dc01f5619466c807af9c6');
+      var i = 0;
+      for (const centroid of CENTROIDS) {
+        this.lands.push({
+          lng: centroid[1],
+          lat: centroid[0],
+          id: `Land${i}`
+        });
+       
+        console.log(this.lands)
+        contract.methods.add_product(this.lands[i].id, 1, 5)
+        .send({from: accounts[0], gas: 3000000})
+        .then(console.log);
+
+        i++;
+
+      }
+    });   
+
     this.loadMap();
   }
 
