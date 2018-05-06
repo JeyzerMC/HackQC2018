@@ -111,17 +111,21 @@ export class ProfilePage {
           name: 'Tomatoes',
           id: '5',
           price: 2.91,
-          creation: 'd',
+          creation: '25/05/2017',
           img: this.productsImg("tomatoes"),
-          owner: "Ross Ulbricht"
+          owner: "Ross Ulbricht",
+          temperature: 25,
+          moisture: 81
         },
         {
           name: 'Blueberries',
           id: '5',
           price: 7.96,
-          creation: 'd',
+          creation: '24/04/2017',
           img: this.productsImg("blueberries"),
-          owner: "John Robinson"
+          owner: "John Robinson",
+          temperature: 21,
+          moisture: 71
         }
       ]
     }
