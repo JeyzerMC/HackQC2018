@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { NewProductPage } from '../new-product/new-product';
 import { LandPage } from '../land/land';
 import { Product } from "../profile/profile";
+import { ProductPage } from "../product/product";
 
 /**
  * Generated class for the OrdersPage page.
@@ -19,6 +20,7 @@ import { Product } from "../profile/profile";
 export class OrdersPage {
     public readonly products: Product[];
     public search: string = "";
+    product = ProductPage;
 
     constructor(public navCtrl: NavController, public navParams: NavParams) {
         this.products = [{id: "A26", name: "Tomatoes", price: 2.77, creation: 'dsfsdf', 
