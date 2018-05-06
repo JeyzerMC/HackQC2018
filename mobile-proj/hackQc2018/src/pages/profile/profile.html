@@ -37,7 +37,7 @@
 
   </ion-card>
 
-  <h2 (click)="prodList.hidden=!prodList.hidden">Products</h2>
+  <ion-label class="txt" (click)="prodList.hidden=!prodList.hidden">Products</ion-label>
   <ion-list #prodList>
     <ion-item *ngFor="let product of user.productsSold">
       <ion-thumbnail item-start>
@@ -49,32 +49,18 @@
     </ion-item>
   </ion-list>
 
-  <h2 (click)="landList.hidden=!landList.hidden">Land</h2>
-  <ion-list #landList>
+  <ion-label class="txt">Land</ion-label>
+  <ion-list #landList click="selectLand()">
     <ion-item *ngFor="let land of user.landUsed" [ngClass]="{'available': land.free}">
       <ion-thumbnail item-start>
         <img src="{{land.img}}">
       </ion-thumbnail>
       <h2>{{land.address.slice(-7)}}</h2>
       <p>{{land.size}} m<sup>2</sup></p>
-      <button ion-button clear item-end>View</button>
+      <button ion-button clear item-end [navPush]="land">View</button>
     </ion-item>
   </ion-list>
 
   <button ion-button round>New Land</button>
-  <button ion-button round>New Product</button>
-  <!--
-  <ul #landList>
-    <li *ngFor="let land of user.landUsed" [ngClass]="{'available': land.free}">
-      <div>
-        name: {{land.name}}
-      </div>
-      <div>
-        free: {{land.free}}
-      </div>
-      <div>
-        owner: {{land.ownerId}}
-      </div>
-    </li>
-  </ul>-->
+  <button ion-button round [navPush]="newProduct">New Product</button>
 </ion-content>
