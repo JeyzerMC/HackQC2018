@@ -2,7 +2,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
 
-import { ProfilePage } from '../profile/profile';
+import { ProfilePage, User } from '../profile/profile';
 import { OrdersPage } from '../orders/orders';
  
 declare var google;
@@ -13,7 +13,7 @@ declare var google;
 })
 export class HomePage {
   
-  username: string;
+  user: User;
   @ViewChild('map') mapElement: ElementRef;
   map: any;
 
@@ -21,19 +21,20 @@ export class HomePage {
   orders = OrdersPage;
 
   constructor(
-    public navCtrl: NavController, 
-    public geolocation: Geolocation) {}
+    public navCtrl: NavController,
+    public navParam: NavParams, 
+    public geolocation: Geolocation) {
+      this.user = this.navParam.get('user')
+    }
  
   ionViewDidLoad(){
     this.loadMap();
   }
  
   loadMap(){
-    
-    let latLng = new google.maps.LatLng(45.5576996,-74.0104841);
  
     let mapOptions = {
-      center: {lat: 41.876, lng: -87.624},
+      center: {lat: 45.5576996, lng: -74.0104841},
       zoom: 15,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
@@ -42,7 +43,6 @@ export class HomePage {
 
     var ctaLayer = new google.maps.KmlLayer({
       url: 'https://www.dropbox.com/s/8uptzsp2h4rwo3e/test.kml?dl=1',
-      // url: 'http://googlemaps.github.io/kml-samples/kml/Placemark/placemark.kml',
       map: this.map
     });
     console.log(ctaLayer);
