@@ -1,7 +1,7 @@
 #gcontainer{
     border: 2px solid rgb(68, 64, 64);
-    width:750px;
-    height:730px;
+    /* width:750px; */
+    height: 90vh;
 }
 
 #gmapbox {
