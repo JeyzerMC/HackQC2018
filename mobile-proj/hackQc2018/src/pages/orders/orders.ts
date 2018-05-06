@@ -22,13 +22,13 @@ export class OrdersPage {
 
     constructor(public navCtrl: NavController, public navParams: NavParams) {
         this.products = [{id: "A26", name: "Tomatoes", price: 2.77, creation: 675455, 
-                          img: this.fillImage("tomatoes")
+                          img: this.productsImg("tomatoes")
                         },
                         {id: "B45", name: "Cucumbers", price: 1.97, creation: 687655, 
-                          img: this.fillImage("cucumbers")
+                          img: this.productsImg("cucumbers")
                         },
                         {id: "YH5", name: "Blueberries", price: 6.85, creation: 978765, 
-                          img: this.fillImage("blueberries")
+                          img: this.productsImg("blueberries")
                         }
                         ]
     }
@@ -37,7 +37,7 @@ export class OrdersPage {
         console.log(this.search);
     }
 
-    fillImage(name) {
+    productsImg(name) {
         return `../../assets/imgs/products/${name}.jpg`;
     }
 

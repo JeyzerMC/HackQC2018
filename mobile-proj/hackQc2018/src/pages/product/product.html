@@ -1,26 +1,60 @@
 <ion-content padding>
+  <ion-card>
+
+    <img src="{{productsImg('tomatoes')}}">
+    <ion-fab right top>
+      <button ion-fab>
+        <ion-icon name="basket"></ion-icon>
+      </button>
+    </ion-fab>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="../../assets/imgs/ross.jpeg">
+      </ion-avatar>
+      <h2>Grown by</h2>
+      <p>{{product.owner}}</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="cash" item-left large></ion-icon>
+      <h2>Price per pound</h2>
+      <p>$ {{product.price}}</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="leaf" item-left large></ion-icon>
+      <h2>Harvested on</h2>
+      <p>{{product.creation}}</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="pin" item-left large></ion-icon>
+      <h2>Location</h2>
+      <p>Mile End, Montreal, H2T 2V7</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="pin" item-left large></ion-icon>
+      <h2>Temperature : {{product.temperature}}°C</h2>
+      <h2>Moisture : {{product.moisture}}%</h2>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="walk" item-left></ion-icon>
+      <span item-left>18 min</span>
+      <span item-left>(2.6 mi)</span>
+      <button ion-button icon-left clear item-end>
+        <ion-icon name="chatbubbles"></ion-icon>
+        Contact Owner
+      </button>
+    </ion-item>
+  </ion-card>
+  <button ion-button>Order</button>
+  <!--
   <button ion-button color="light" navPop>
     <ion-icon name="arrow-back"></ion-icon>
   </button>
-  <h1>{{product.name}}</h1>
-
-  <ion-avatar>
-    <img src="../../assets/imgs/tomato.jpg">
-    <h3>mady by
-      <img src="../../assets/imgs/ross.jpeg" style="width: 50px; height: 50px;">
-    </h3>
-  </ion-avatar>
-
-  <h2>Status</h2>
-  <ul>
-    <li>
-      <ion-icon name="water"></ion-icon> 89%</li>
-    <li>
-      <ion-icon name="thermometer"></ion-icon> 19°</li>
-  </ul>
-
-  <h2>${{product.price}}</h2>
-  <h3>harvested on {{product.creation + 10}}</h3>
-  <button ion-button>Order</button>
+  -->
 
 </ion-content>

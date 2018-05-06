@@ -17,9 +17,8 @@
     </ion-item>
 
     <ion-card-content>
-      <p>Add description here</p>
+      <p>I am passionate about growing all sort of vegetables & fruits!</p>
     </ion-card-content>
-
     <ion-row>
       <ion-col>
         <button ion-button icon-left clear small>
@@ -38,6 +37,7 @@
   </ion-card>
 
   <ion-label class="txt" (click)="prodList.hidden=!prodList.hidden">Products</ion-label>
+  
   <ion-list #prodList>
     <ion-item *ngFor="let product of user.productsSold">
       <ion-thumbnail item-start>
@@ -50,6 +50,7 @@
   </ion-list>
 
   <ion-label class="txt">Land</ion-label>
+  
   <ion-list #landList click="selectLand()">
     <ion-item *ngFor="let land of user.landUsed" [ngClass]="{'available': land.free}">
       <ion-thumbnail item-start>
