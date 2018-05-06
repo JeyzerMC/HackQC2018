@@ -60,7 +60,7 @@ export class ProfilePage {
 
   user: User =
     {
-      id: "dsf",
+      id: "5G5",
       firstName: 'Ross',
       lastName: 'Ulbricht',
       email: 'ross.ulbricht@gmail.com',
@@ -75,7 +75,7 @@ export class ProfilePage {
         renterId: "dfsd"
       },
       {
-        id: "dfsdf",
+        id: "6Y7",
         free: false,
         posx: 3,
         posy: 5,

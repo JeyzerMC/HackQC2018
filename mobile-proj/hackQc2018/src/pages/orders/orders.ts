@@ -23,15 +23,18 @@ export class OrdersPage {
     product = ProductPage;
 
     constructor(public navCtrl: NavController, public navParams: NavParams) {
-        this.products = [{id: "A26", name: "Tomatoes", price: 2.77, creation: 'dsfsdf', 
-                          img: this.productsImg("tomatoes")
+        this.products = [{id: "A26", name: "Tomatoes", price: 2.77, creation: '25/06/2017', 
+                          img: this.productsImg("tomatoes"), temperature: 24, moisture: 54,
+                          owner: "Ross Ulbricht"
                         },
                         {id: "B45", name: "Cucumbers", price: 1.97, creation: 
-                        'sdfsdf', 
-                          img: this.productsImg("cucumbers")
+                        '01/05/2017', 
+                          img: this.productsImg("cucumbers"), temperature: 23, moisture: 92,
+                          owner: "Ross Ulbricht"
                         },
-                        {id: "YH5", name: "Blueberries", price: 6.85, creation: 'fsdfsd', 
-                          img: this.productsImg("blueberries")
+                        {id: "YH5", name: "Blueberries", price: 6.85, creation: '30/05/2017', 
+                          img: this.productsImg("blueberries"), temperature: 15, moisture: 85,
+                          owner: "Ross Ulbricht"
                         }
                         ]
     }
