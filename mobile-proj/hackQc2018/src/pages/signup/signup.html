@@ -1,5 +1,10 @@
 <ion-header>
   <ion-navbar color="primary" navPop>
+    <ion-buttons left>
+      <button ion-button icon-only>
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
     <ion-title>Sign up</ion-title>
   </ion-navbar>
 </ion-header>
@@ -30,7 +35,6 @@
       <ion-input #phone type="phone" placeholder="phone"></ion-input>
     </ion-item>
   </ion-list>
-
-  <button ion-button navPop>Back to login</button>
+  
   <button ion-button (click)="signup(email.value, password.value, firstName.value, lastName.value, phone.value)" [disabled]="!password.value || password.value!== passwordConf.value">signup</button>
 </ion-content>
