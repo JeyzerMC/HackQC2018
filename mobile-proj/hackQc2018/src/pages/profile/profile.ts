@@ -63,8 +63,8 @@ export class ProfilePage {
       id: "5G5",
       firstName: 'Ross',
       lastName: 'Ulbricht',
-      email: 'ross.ulbricht@gmail.com',
-      phoneNumber: "5145145145",
+      email: '.',
+      phoneNumber: ".",
       password: 'password',
       landOwned: [{
         id: "dfsdf",
